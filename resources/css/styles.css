@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+}
+@font-face{
+  font-family: "SFUI Display";
+  src: url(../fonts/SFUIDisplay/SFUIDisplay-Regular.otf)
+}
+body{
+  font-family: "SFUI Display";
+  font-size: 18px;
+}
+/* NAVIGATION BAR STYLES START */
+.navigation-bar {
+  padding: 1.5em 5em;
+  background-color: #252e5c;
+  display: flex;
+}
+.nav-container {
+  justify-content: flex-end;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 0 0;
+  margin-left: auto;
+}
+.nav-container-responsive{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+  background-color: rgba(94, 110, 141, 0.9);
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  overflow-y: auto;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.home-nav{
+  display: inline-block;
+  padding: 0 0;
+}
+.home-ele{
+  margin: 0 0 !important;
+}
+.nav-element {
+  display: inline-block;
+  color: #eee;
+  margin: 0 1em;
+}
+.nav-link{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.responsive-button{
+  display: none;
+}
+
+
+@media all and (max-width: 767.98px) {
+  .nav-container {
+    display: none;
+  }
+  .responsive-button{
+    display: block;
+    margin-left: auto;
+  }
+}
+
+/* NAVIGATION BAR STYLES END */
