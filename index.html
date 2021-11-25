@@ -12,7 +12,6 @@
   </head>
   <body>
     <!-- NAVIGATION BAR START -->
-    <h1>New title!</h1>
     <nav class="navigation-bar">
       <ul class="home-nav">
         <li class="nav-element home-ele">
@@ -20,7 +19,8 @@
           <a class="nav-link home-button" href="">HOME</a>
         </li>
       </ul>
-      <ul id="navigationBar" class="nav-container">
+      <ul id="navigationBar" class="nav-container" >
+        <button class="close-button not-visible" id="navBtnClose" onclick="navbarClose()">X</button>
         <li class="nav-element">
           <i class="fas fa-address-card"></i>
           <a class="nav-link" href="">About me</a>
