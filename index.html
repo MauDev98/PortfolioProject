@@ -12,16 +12,22 @@
   </head>
   <body>
     <!-- NAVIGATION BAR START -->
-    <nav class="navigation-bar">
+    <nav class="navigation-bar" id="complete-navbar">
       <ul class="home-nav">
         <li class="nav-element home-ele">
           <i class="fas fa-home"></i>
           <a class="nav-link home-button" href="">HOME</a>
         </li>
       </ul>
-      <ul id="navigationBar" class="nav-container" >
-        <button class="close-button not-visible" id="navBtnClose" onclick="navbarClose()">X</button>
-        <li class="nav-element">
+      <ul id="navigationBar" class="nav-container">
+        <button
+          class="close-button not-visible"
+          id="navBtnClose"
+          onclick="navbarClose()"
+        >
+          X
+        </button>
+        <li class="nav-element heymynameismau">
           <i class="fas fa-address-card"></i>
           <a class="nav-link" href="">About me</a>
         </li>
@@ -34,19 +40,54 @@
           <a class="nav-link" href="">Projects</a>
         </li>
         <li class="nav-element">
-          <i class="fas fa-user-graduate"></i>
-          <a class="nav-link" href="">Resume</a>
-        </li>
-        <li class="nav-element">
           <i class="fas fa-mail-bulk"></i>
           <a class="nav-link" href="">Contact</a>
         </li>
+        <li class="nav-element resume-link">
+          <i class="fas fa-user-graduate"></i>
+          <a class="nav-link" href="">Resume</a>
+        </li>
       </ul>
-      <a id="responsive-button" class="nav-link responsive-button" href="#" onclick="navbarToggle()" >
+      <a
+        id="responsive-button"
+        class="nav-link responsive-button"
+        onclick="navbarToggle()"
+      >
         <i class="fas fa-bars"></i>
       </a>
     </nav>
     <!-- NAVIGATION BAR END -->
+    <!-- PRESENTATION SECTION START -->
+    <div id="particles-js" class="presentation-container">
+      <div class="titles-container">
+        <h1 class="presentation-title">Hello, my name is Mauricio</h1>
+        <h2 class="presentation-subtitle">Let me introduce myself...</h2>
+        <i class="fas fa-arrow-alt-circle-down arrow-guide"></i>
+      </div>
+    </div>
+    <!-- PRESENTATION SECTION END -->
+    <!-- ABOUT SECTION START -->
+    <div class="about-section">
+      <div class="about-img-div">
+        <img
+          class="about-img"
+          src="./resources/img/AboutImgs/porfolioPic.jpeg"
+          alt=""
+        />
+      </div>
+      <div>
+        <h1 class="title-style">About me</h1>
+        <p class="about-description text-style">
+          I have a Bachelor's degree in Business Management and I am self-taught
+          web developer
+        </p>
+      </div>
+    </div>
+    <!-- ABOUT SECTION END -->
+    <!-- SCRIPTS SECTIONS START -->
     <script src="./resources/js/scripts.js"></script>
+    <script src="./resources/js/particles/particles.js"></script>
+    <script src="./resources/js/particles/app.js"></script>
+    <!-- SCRIPTS SECTIONS END -->
   </body>
 </html>
