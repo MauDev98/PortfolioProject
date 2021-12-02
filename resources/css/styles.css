@@ -40,7 +40,7 @@ body {
 }
 @font-face {
   font-family: "Spacemono Nerdfont";
-  src: url(../fonts/SpaceMono/Space\ Mono\ Nerd\ Font\ Complete.ttf);
+  src: url(../fonts/SpaceMono/Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf);
 }
 
 /* NAVIGATION BAR STYLES START */
@@ -314,7 +314,11 @@ body {
 }
 
 .about-description {
-  padding: 2em 0 0 0;
+  padding: 0em 1em 1em 0;
+}
+
+.about-paragrap-text{
+  text-align: justify;
 }
 
 /* ABOUT SECTION STYLES END */
