@@ -29,15 +29,19 @@ body {
     url(../img/keyboards.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  scroll-behavior: smooth;
 }
+
 @font-face {
   font-family: "SFUI Display";
   src: url(../fonts/SFUIDisplay/SFUIDisplay-Regular.otf);
 }
+
 @font-face {
   font-family: "AnonymousPro";
   src: url(../fonts/AnonymousPro/Anonymice\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf);
 }
+
 @font-face {
   font-family: "Spacemono Nerdfont";
   src: url(../fonts/SpaceMono/Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf);
@@ -95,7 +99,7 @@ body {
 .nav-element {
   display: inline-flex;
   color: var(--textColor);
-  margin: 0 1.5em;
+  margin: 0 1.2em;
   height: 3em;
   justify-content: center;
   align-items: center;
@@ -107,8 +111,11 @@ body {
   font-size: 1.1em;
   text-transform: uppercase;
   display: inline-block;
-  margin-left: 0.5em;
 }
+.nav-link i{
+  margin-right: 0.5em;
+}
+
 .responsive-button {
   display: none;
 }
@@ -275,30 +282,30 @@ body {
 
 /* ABOUT SECTION STYLES START */
 .about-section {
-  padding: 3em 1em;
+  padding: 1em 1em;
   height: auto;
   width: 70vw;
   margin: 2em auto;
   background-color: var(--divBackgroundColor);
   border-radius: 10px;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 1fr;
+  grid-template-columns: 40% 60%;
 }
 
 .about-img-div {
   justify-self: center;
   align-self: start;
   position: relative;
-  margin: 50px 0 0 50px;
+  margin: auto 2em;
   display: inline-block;
   z-index: 1;
+  height: 100%;
 }
 
 .about-img {
   display: block;
   height: auto;
-  width: 25vw;
+  width: 100%;
 }
 
 .about-img-div::after {
@@ -319,6 +326,23 @@ body {
 
 .about-paragrap-text{
   text-align: justify;
+  font-size: 0.9em;
 }
 
 /* ABOUT SECTION STYLES END */
+
+/* TECNOLOGIES SECTION STYLES START */
+
+.technologies-container{
+  padding: 1em 1em;
+  height: 100vh;
+  width: 70vw;
+  margin: 2em auto;
+  background-color: var(--divBackgroundColor);
+  border-radius: 10px;
+}
+
+
+/* TECNOLOGIES SECTION STYLES END */
+
+
