@@ -1,147 +1,124 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Mauricio Developer</title>
     <link rel="stylesheet" href="./resources/css/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/907e2023f1.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
+    <script src="https://kit.fontawesome.com/907e2023f1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
     <!-- NAVIGATION BAR START -->
     <nav class="navigation-bar" id="complete-navbar">
-      <ul class="home-nav">
-        <li class="nav-element home-ele">
-          <a class="nav-link home-button" href="#intro-div"
-            ><i class="fas fa-home"></i>HOME</a
-          >
-        </li>
-      </ul>
-      <ul id="navigationBar" class="nav-container">
-        <button
-          class="close-button not-visible"
-          id="navBtnClose"
-          onclick="navbarClose()"
-        >
-          X
-        </button>
-        <li class="nav-element heymynameismau">
-          <a class="nav-link" href="#aboutSection"
-            ><i class="fas fa-address-card"></i>About me</a
-          >
-        </li>
-        <li class="nav-element">
-          <a class="nav-link" href="#technologies-sec"
-            ><i class="fas fa-laptop-code"></i>Technologies</a
-          >
-        </li>
-        <li class="nav-element">
-          <a class="nav-link" href=""><i class="fas fa-hammer"></i>Projects</a>
-        </li>
-        <li class="nav-element">
-          <a class="nav-link" href=""
-            ><i class="fas fa-mail-bulk"></i>Contact</a
-          >
-        </li>
-        <li class="nav-element">
-          <a class="nav-link resume-link" href=""
-            ><i class="fas fa-user-graduate"></i>Resume</a
-          >
-        </li>
-      </ul>
-      <a
-        id="responsive-button"
-        class="nav-link responsive-button"
-        onclick="navbarToggle()"
-      >
-        <i class="fas fa-bars"></i>
-      </a>
+        <ul class="home-nav">
+            <li class="nav-element home-ele">
+                <a class="nav-link home-button" href="#intro-div"><i class="fas fa-home"></i>HOME</a>
+            </li>
+        </ul>
+        <ul id="navigationBar" class="nav-container">
+            <button class="close-button not-visible" id="navBtnClose" onclick="navbarClose()">
+                X
+            </button>
+            <li id="firstButton" class="nav-element">
+                <a class="nav-link" href="#aboutSection"><i class="fas fa-address-card"></i>About me</a>
+            </li>
+            <li class="nav-element">
+                <a class="nav-link" href="#technologies-sec"><i class="fas fa-laptop-code"></i>Technologies</a>
+            </li>
+            <li class="nav-element">
+                <a class="nav-link" href=""><i class="fas fa-hammer"></i>Projects</a>
+            </li>
+            <li class="nav-element">
+                <a class="nav-link" href=""><i class="fas fa-mail-bulk"></i>Contact</a>
+            </li>
+            <li class="nav-element">
+                <a class="nav-link resume-link" href=""><i class="fas fa-user-graduate"></i>Resume</a>
+            </li>
+        </ul>
+        <a id="responsive-button" class="nav-link responsive-button" onclick="navbarToggle()">
+            <i class="fas fa-bars"></i>
+        </a>
     </nav>
     <!-- NAVIGATION BAR END -->
     <!-- PRESENTATION SECTION START -->
     <div id="intro-div">
-      <div id="particles-js" class="presentation-container">
-        <div class="titles-container">
-          <h1 class="presentation-title">Hello, my name is Mauricio</h1>
-          <h2 class="presentation-subtitle">Let me introduce myself...</h2>
-          <a class="nav-link" href="#aboutSection">
-            <i class="fas fa-arrow-alt-circle-down arrow-guide"></i>
-          </a>
+        <div id="particles-js" class="presentation-container">
+            <div class="titles-container">
+                <h1 class="presentation-title">Hello, my name is Mauricio</h1>
+                <h2 class="presentation-subtitle">Let me introduce myself...</h2>
+                <a class="nav-link" href="#aboutSection">
+                    <i class="fas fa-arrow-alt-circle-down arrow-guide"></i>
+                </a>
+            </div>
         </div>
-      </div>
     </div>
     <!-- PRESENTATION SECTION END -->
     <!-- ABOUT SECTION START -->
     <section class="about-section" id="aboutSection">
-      <div class="about-img-div">
-        <img
-          class="about-img"
-          src="./resources/img/AboutImgs/porfolioPic.jpeg"
-          alt=""
-        />
-      </div>
-      <div>
-        <h1 class="title-style">About me</h1>
-        <div class="about-description">
-          <p class="text-style about-paragrap-text">
-            I am a 23 years old peruvian business manager and self-taught web
-            developer currentlty based in Canada.
-          </p>
-          <p class="text-style about-paragrap-text">
-            I graduated as a bachelor in Business Management at the beginning of
-            the year 2021, however by that time my interests had shifted.
-          </p>
-          <p class="text-style about-paragrap-text">
-            Computers have always seemed like fantastic machines to me, I have
-            had one for most of my life but to be honest I used it mainly for
-            video games. I considered everything related to programming or
-            software development as rocket science.
-          </p>
-          <p class="text-style about-paragrap-text">
-            The Covid-19 pandemic changed the world for everyone and I was not
-            going to be the exception, I was locked up at home with a lot of
-            free time and my university studies almost finished when I saw an ad
-            about a python course, I said to myself, why not?
-          </p>
-          <p class="text-style about-paragrap-text">
-            This is the way I began the most amusing learning journey I have
-            ever had, I learn the frustration of not understanding why the code
-            did not do what I wanted and the joy when it did, I discovered a new
-            world that I have no plans on letting go.
-          </p>
+        <div class="about-img-div">
+            <img class="about-img" src="./resources/img/AboutImgs/porfolioPic.jpeg" alt="" />
         </div>
-      </div>
+        <div>
+            <h1 class="title-style">About me</h1>
+            <div class="about-description">
+                <p class="text-style about-paragrap-text">
+                    I am a 23 years old peruvian business manager and self-taught web
+                    developer currentlty based in Canada.
+                </p>
+                <p class="text-style about-paragrap-text">
+                    I graduated as a bachelor in Business Management at the beginning of
+                    the year 2021, however by that time my interests had shifted.
+                </p>
+                <p class="text-style about-paragrap-text">
+                    Computers have always seemed like fantastic machines to me, I have
+                    had one for most of my life but to be honest I used it mainly for
+                    video games. I considered everything related to programming or
+                    software development as rocket science.
+                </p>
+                <p class="text-style about-paragrap-text">
+                    The Covid-19 pandemic changed the world for everyone and I was not
+                    going to be the exception, I was locked up at home with a lot of
+                    free time and my university studies almost finished when I saw an ad
+                    about a python course, I said to myself, why not?
+                </p>
+                <p class="text-style about-paragrap-text">
+                    This is the way I began the most amusing learning journey I have
+                    ever had, I learn the frustration of not understanding why the code
+                    did not do what I wanted and the joy when it did, I discovered a new
+                    world that I have no plans on letting go.
+                </p>
+            </div>
+        </div>
     </section>
     <!-- ABOUT SECTION END -->
     <!-- TECHNOLOGIES SECTION START -->
     <section id="technologies-sec">
-      <div class="technologies-container">
-        <h1>These are all the the tools I've learned to use</h1>
-        <div class="technologies-grid">
-          <div id="html">
-            <h1>The bones of the web</h1>
-            <img src="" alt="" />
-            <p>Proficiency level:</p>
-          </div>
-          <div id="css">
-            <h1>
-              It's not about how much you can lift, it's how cool you look
-            </h1>
-            <img src="" alt="" />
-            <p>Proficiency level</p>
-          </div>
-          <div id="javacript">
-            <h1>
-              It's not about how much you can lift, it's how cool you look
-            </h1>
-            <img src="" alt="" />
-            <p>Proficiency level</p>
-          </div>
+        <div class="technologies-container">
+            <h1>These are all the the tools I've learned to use</h1>
+            <div class="technologies-grid">
+                <div id="html">
+                    <h1>The bones of the web</h1>
+                    <img src="" alt="" />
+                    <p>Proficiency level:</p>
+                </div>
+                <div id="css">
+                    <h1>
+                        It's not about how much you can lift, it's how cool you look
+                    </h1>
+                    <img src="" alt="" />
+                    <p>Proficiency level</p>
+                </div>
+                <div id="javacript">
+                    <h1>
+                        It's not about how much you can lift, it's how cool you look
+                    </h1>
+                    <img src="" alt="" />
+                    <p>Proficiency level</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <!-- TECHNOLOGIES SECTION END -->
     <!-- SCRIPTS SECTIONS START -->
@@ -149,5 +126,6 @@
     <script src="./resources/js/particles/particles.js"></script>
     <script src="./resources/js/particles/app.js"></script>
     <!-- SCRIPTS SECTIONS END -->
-  </body>
+</body>
+
 </html>

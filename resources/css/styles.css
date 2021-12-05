@@ -1,331 +1,346 @@
 :root {
-  --typeWriterSpeed: 3s;
-  --textColor: #000;
-  --titlesColor: #000;
-  --divBackgroundColor: #a5ccd1;
-  --miscColor: #949ba0;
-  --miscColorRGB: rgb(148, 155, 160, 0.75);
+    --typeWriterSpeed: 3s;
+    --textColor: #000;
+    --titlesColor: #000;
+    --divBackgroundColor: #a5ccd1;
+    --miscColor: #949ba0;
+    --miscColorRGB: rgb(148, 155, 160, 0.75);
 }
 
 .title-style {
-  font-family: "Spacemono Nerdfont";
-  font-size: 2em;
-  color: var(--titlesColor);
+    font-family: "Spacemono Nerdfont";
+    font-size: 2em;
+    color: var(--titlesColor);
 }
 
 .text-style {
-  font-family: "Spacemono Nerdfont";
-  font-size: 1.1em;
-  color: var(--textColor);
+    font-family: "Spacemono Nerdfont";
+    font-size: 1.1em;
+    color: var(--textColor);
 }
 
 body {
-  margin: 0;
-  overflow-x: hidden;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(../img/keyboards.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  scroll-behavior: smooth;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url(../img/keyboards.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 @font-face {
-  font-family: "SFUI Display";
-  src: url(../fonts/SFUIDisplay/SFUIDisplay-Regular.otf);
+    font-family: "SFUI Display";
+    src: url(../fonts/SFUIDisplay/SFUIDisplay-Regular.otf);
 }
 
 @font-face {
-  font-family: "AnonymousPro";
-  src: url(../fonts/AnonymousPro/Anonymice\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf);
+    font-family: "AnonymousPro";
+    src: url(../fonts/AnonymousPro/Anonymice\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf);
 }
 
 @font-face {
-  font-family: "Spacemono Nerdfont";
-  src: url(../fonts/SpaceMono/Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf);
+    font-family: "Spacemono Nerdfont";
+    src: url(../fonts/SpaceMono/Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf);
 }
 
 /* NAVIGATION BAR STYLES START */
 .navigation-bar {
-  height: 1em;
-  padding: 1.5em 6em;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 200;
+    height: 1em;
+    padding: 1.5em 6em;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 200;
 }
 
 .nav-container {
-  justify-content: flex-end;
-  display: inline-flex;
-  flex-direction: row;
-  margin-left: auto;
-  align-items: center;
+    justify-content: flex-end;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
 }
 
 .not-visible {
-  opacity: 1;
-  visibility: hidden;
+    opacity: 1;
+    visibility: hidden;
 }
 
 .is-visible {
-  visibility: visible !important;
+    visibility: visible !important;
 }
 
 .close-button {
-  background: none;
-  border: none;
-  font-size: 1.5em;
-  position: fixed;
-  right: 0;
-  top: 0;
-  color: var(--textColor);
-  cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: var(--textColor);
+    cursor: pointer;
 }
+
 .home-nav {
-  display: inline-block;
-  padding: 0 0;
+    display: inline-block;
+    padding: 0 0;
 }
+
 .home-ele {
-  margin: 0 0 !important;
+    margin: 0 0 !important;
 }
+
 .nav-element {
-  display: inline-flex;
-  color: var(--textColor);
-  margin: 0 1.2em;
-  height: 3em;
-  justify-content: center;
-  align-items: center;
+    display: inline-flex;
+    color: var(--textColor);
+    margin: 0 1.2em;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
 }
+
 .nav-link {
-  text-decoration: none;
-  color: var(--textColor);
-  cursor: pointer;
-  font-size: 1.1em;
-  text-transform: uppercase;
-  display: inline-block;
+    text-decoration: none;
+    color: var(--textColor);
+    cursor: pointer;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    display: inline-block;
 }
+
 .nav-link i {
-  margin-right: 0.5em;
+    margin-right: 0.5em;
 }
 
 .responsive-button {
-  display: none;
+    display: none;
 }
+
 .resume-link {
-  border: 1px solid var(--divBackgroundColor);
-  border-radius: 5px;
-  width: 10em;
-  height: 3em;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--divBackgroundColor);
+    border: 1px solid var(--divBackgroundColor);
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--divBackgroundColor);
 }
 
 /* STICKY NAVBAR */
 
 .navigation-bar-scroll {
-  height: 4em;
-  padding: 0 6em;
-  background: var(--miscColorRGB);
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 200;
+    height: 4em;
+    padding: 0 6em;
+    background: var(--miscColorRGB);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 200;
 }
 
 @media all and (max-width: 991.98px) {
-  .nav-container {
-    position: fixed;
-    margin: 0 !important;
-    padding: 0 0;
-    right: 0;
-    top: 0;
-    width: 50vw;
-    height: 100%;
-    opacity: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    visibility: hidden;
-    background: rgba(94, 110, 141, 0.9);
-  }
-  .responsive-button {
-    display: block;
-    margin-left: auto;
-  }
-  .nav-element {
-    margin: 1em;
-  }
-  .navigation-bar {
-    height: 4em;
-    padding: 0 2em;
-  }
-  .nav-link {
-    text-transform: none;
-  }
+    .nav-container {
+        position: fixed;
+        margin: 0 !important;
+        padding: 0 0;
+        right: 0;
+        top: 0;
+        width: 50vw;
+        height: 100%;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        visibility: hidden;
+        background: rgba(94, 110, 141, 0.9);
+    }
+
+    .responsive-button {
+        display: block;
+        margin-left: auto;
+    }
+
+    .nav-element {
+        margin: 1em;
+    }
+
+    .navigation-bar {
+        height: 4em;
+        padding: 0 2em;
+    }
+
+    .nav-link {
+        text-transform: none;
+    }
 }
 
 /* NAVIGATION BAR STYLES END */
 
 /* PRESENTATION SECTION STYLES START */
 .presentation-container {
-  height: 90vh;
+    height: 90vh;
 }
 
 .titles-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
 }
 
 .presentation-title {
-  font-family: "Spacemono Nerdfont";
-  color: var(--titlesColor);
-  position: relative;
-  margin: 0 auto;
-  overflow: hidden;
-  border-right: 0.08em solid white;
-  text-align: center;
-  white-space: nowrap;
-  transform: translateY(-50%);
-  width: 0;
-  animation: typing var(--typeWriterSpeed) steps(36, end) 1s forwards,
-    blink-caret 750ms steps(28) infinite;
+    font-family: "Spacemono Nerdfont";
+    color: var(--titlesColor);
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    border-right: 0.08em solid white;
+    text-align: center;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    width: 0;
+    animation: typing var(--typeWriterSpeed) steps(36, end) 1s forwards,
+        blink-caret 750ms steps(28) infinite;
 }
 
 .presentation-subtitle {
-  margin-top: 2em;
-  font-family: "Spacemono Nerdfont";
-  opacity: 0;
-  transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(var(--typeWriterSpeed) + 2s) forwards;
-  color: var(--titlesColor);
+    margin-top: 2em;
+    font-family: "Spacemono Nerdfont";
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease calc(var(--typeWriterSpeed) + 2s) forwards;
+    color: var(--titlesColor);
 }
 
 @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
 .arrow-guide {
-  margin-top: 1em;
-  font-size: 5em;
-  color: #fff;
-  animation: fadeInUp 2s ease calc(var(--typeWriterSpeed) + 3s) forwards,
-    blink-animation 1500ms calc(var(--typeWriterSpeed) + 4s) infinite;
-  opacity: 0;
+    margin-top: 1em;
+    font-size: 5em;
+    color: #fff;
+    animation: fadeInUp 2s ease calc(var(--typeWriterSpeed) + 3s) forwards,
+        blink-animation 1500ms calc(var(--typeWriterSpeed) + 4s) infinite;
+    opacity: 0;
 }
 
 @keyframes blink-caret {
-  from {
-    border-color: transparent;
-  }
-  to {
-    border-color: var(--titlesColor);
-  }
+    from {
+        border-color: transparent;
+    }
+
+    to {
+        border-color: var(--titlesColor);
+    }
 }
 
 @keyframes blink-animation {
-  from {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media all and (max-width: 991.98px) {
-  .presentation-title {
-    font-size: 1.25em;
-  }
-  .presentation-subtitle {
-    font-size: 1.25em;
-  }
+    .presentation-title {
+        font-size: 1.25em;
+    }
+
+    .presentation-subtitle {
+        font-size: 1.25em;
+    }
 }
 
 /* PRESENTATION SECTION STYLES END */
 
 /* ABOUT SECTION STYLES START */
 .about-section {
-  padding: 1em 1em;
-  height: auto;
-  width: 70vw;
-  margin: 2em auto;
-  background-color: var(--divBackgroundColor);
-  border-radius: 10px;
-  display: grid;
-  grid-template-columns: 40% 60%;
+    padding: 1em 1em;
+    height: auto;
+    width: 70vw;
+    margin: 2em auto;
+    background-color: var(--divBackgroundColor);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 40% 60%;
 }
 
 .about-img-div {
-  justify-self: center;
-  align-self: start;
-  position: relative;
-  margin: auto 2em;
-  display: inline-block;
-  z-index: 1;
-  height: 100%;
+    justify-self: center;
+    align-self: start;
+    position: relative;
+    margin: auto 2em;
+    display: inline-block;
+    z-index: 1;
+    height: 100%;
 }
 
 .about-img {
-  display: block;
-  height: auto;
-  width: 100%;
+    display: block;
+    height: auto;
+    width: 100%;
 }
 
 .about-img-div::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-left: 10px solid var(--miscColor);
-  border-top: 10px solid var(--miscColor);
-  left: -25px;
-  top: -25px;
-  z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-left: 10px solid var(--miscColor);
+    border-top: 10px solid var(--miscColor);
+    left: -25px;
+    top: -25px;
+    z-index: -1;
 }
 
 .about-description {
-  padding: 0em 1em 1em 0;
+    padding: 0em 1em 1em 0;
 }
 
 .about-paragrap-text {
-  text-align: justify;
-  font-size: 0.9em;
+    text-align: justify;
+    font-size: 0.9em;
 }
 
 /* ABOUT SECTION STYLES END */
@@ -333,12 +348,13 @@ body {
 /* TECNOLOGIES SECTION STYLES START */
 
 .technologies-container {
-  padding: 1em 1em;
-  height: 100vh;
-  width: 70vw;
-  margin: 2em auto;
-  background-color: var(--divBackgroundColor);
-  border-radius: 10px;
+    padding: 1em 1em;
+    height: 100vh;
+    width: 70vw;
+    margin: 2em auto;
+    background-color: var(--divBackgroundColor);
+    border-radius: 10px;
 }
+
 
 /* TECNOLOGIES SECTION STYLES END */
