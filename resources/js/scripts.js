@@ -52,3 +52,30 @@ function clickHandler(e) {
 }
 
 //DIV APPEAR ON SCROLL
+
+//FRAMEWORKS ACTION
+const frameworkLinks = document.getElementsByClassName("framework-link")
+
+for (const frameworkLink of frameworkLinks){
+    frameworkLink.addEventListener("click", frameworkPopUp)
+}
+
+function frameworkPopUp(e) {
+    e.epreventDefault();
+    this.classList.remove("not-visible")
+}
+
+//Fix this by removing not visible class to the p tag, idiot
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,18 +7,6 @@
     --miscColorRGB: rgb(107, 129, 140, 0.75);
 }
 
-.title-style {
-    font-family: "Spacemono Nerdfont";
-    font-size: 2em;
-    color: var(--titlesColor);
-}
-
-.text-style {
-    font-family: "Spacemono Nerdfont";
-    font-size: 1.1em;
-    color: var(--textColor);
-}
-
 body {
     margin: 0;
     overflow-x: hidden;
@@ -45,6 +33,18 @@ body {
 @font-face {
     font-family: "Spacemono Nerdfont";
     src: url(../fonts/SpaceMono/Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf);
+}
+
+.title-style {
+    font-family: "Spacemono Nerdfont";
+    font-size: 2em;
+    color: var(--titlesColor);
+}
+
+.text-style {
+    font-family: "Spacemono Nerdfont";
+    font-size: 1.1em;
+    color: var(--textColor);
 }
 
 /* NAVIGATION BAR STYLES START */
@@ -362,11 +362,19 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 33%);
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .tech-div {
     padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.tech-div i {
+    color: var(--miscColor);
 }
 
 .tech-title{
@@ -380,7 +388,7 @@ body {
 }
 
 .js-title::before{
-    content: "JAVASCRIPT:";
+    content: "Javascript:";
     color: var(--titlesColor);
     font-size: 1.4em;
 }
@@ -389,6 +397,11 @@ body {
     content: "CSS:";
     color: var(--titlesColor); 
     font-size: 1.4em;
+}
+
+.framework-link{
+    align-self: start;
+    margin-bottom: 0.5em;
 }
 
 .html-level::after {
