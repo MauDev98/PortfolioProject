@@ -1,10 +1,10 @@
 :root {
     --typeWriterSpeed: 3s;
-    --textColor: #000;
-    --titlesColor: #000;
-    --divBackgroundColor: #a5ccd1;
-    --miscColor: #949ba0;
-    --miscColorRGB: rgb(148, 155, 160, 0.75);
+    --textColor: #EEE5E9;
+    --titlesColor: #CC2936;
+    --divBackgroundColor: #08415C;
+    --miscColor: #6B818C;
+    --miscColorRGB: rgb(107, 129, 140, 0.75);
 }
 
 .title-style {
@@ -211,11 +211,11 @@ body {
 
 .presentation-title {
     font-family: "Spacemono Nerdfont";
-    color: var(--titlesColor);
+    color: var(--textColor);
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    border-right: 0.08em solid white;
+    border-right: 0.2em solid white;
     text-align: center;
     white-space: nowrap;
     transform: translateY(-50%);
@@ -230,7 +230,7 @@ body {
     opacity: 0;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease calc(var(--typeWriterSpeed) + 2s) forwards;
-    color: var(--titlesColor);
+    color: var(--textColor);
 }
 
 @keyframes typing {
@@ -358,13 +358,44 @@ body {
     border-bottom-right-radius: 10px;
 }
 
+.technologies-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    align-items: center;
+}
+
 .tech-div {
     padding: 0 2em;
+}
+
+.tech-title{
+    font-size: 1.2em;
+}
+
+.html-title::before{
+    content: "HTML:";
+    color: var(--titlesColor);
+    font-size: 1.4em;
+}
+
+.js-title::before{
+    content: "JAVASCRIPT:";
+    color: var(--titlesColor);
+    font-size: 1.4em;
+}
+
+.css-title::before{
+    content: "CSS:";
+    color: var(--titlesColor); 
+    font-size: 1.4em;
 }
 
 .html-level::after {
     content: "100%";
     color: #000;
+    font-family: "Spacemono Nerdfont";
+    font-size: 1.1em;
     text-align: center;
     display: absolute;
     border-top-right-radius: 10px;
@@ -381,6 +412,8 @@ body {
 .css-level::after {
     content: "90%";
     color: #000;
+    font-family: "Spacemono Nerdfont";
+    font-size: 1.1em;
     text-align: center;
     display: absolute;
     top: 0;
@@ -397,6 +430,8 @@ body {
 .js-level::after {
     content: "80%";
     color: #000;
+    font-family: "Spacemono Nerdfont";
+    font-size: 1.1em;
     text-align: center;
     display: absolute;
     top: 0;
