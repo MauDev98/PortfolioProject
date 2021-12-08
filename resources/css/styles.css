@@ -4,6 +4,7 @@
     --titlesColor: #CC2936;
     --divBackgroundColor: #08415C;
     --miscColor: #6B818C;
+    --miscColor2: #F1BF98;
     --miscColorRGB: rgb(107, 129, 140, 0.75);
 }
 
@@ -73,6 +74,7 @@ body {
 .not-visible {
     opacity: 1;
     visibility: hidden;
+    display: none;
 }
 
 .is-visible {
@@ -324,7 +326,7 @@ body {
 }
 
 .img-raised {
-  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
 }
 
 .about-description {
@@ -341,8 +343,8 @@ body {
 /* TECNOLOGIES SECTION STYLES START */
 
 .technologies-container {
-    padding: 1em 2em;
-    height: 100vh;
+    padding: 1em 2em 3em 2em;
+    height: auto;
     width: 70vw;
     margin: 2em auto;
     background-color: var(--divBackgroundColor);
@@ -358,7 +360,7 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-.technologies-grid{
+.technologies-grid {
     display: grid;
     grid-template-columns: repeat(3, 33%);
     justify-content: center;
@@ -370,38 +372,88 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    position: relative
 }
 
 .tech-div i {
     color: var(--miscColor);
 }
 
-.tech-title{
+.tech-title {
     font-size: 1.2em;
 }
 
-.html-title::before{
+.html-title::before {
     content: "HTML:";
     color: var(--titlesColor);
     font-size: 1.4em;
 }
 
-.js-title::before{
+.js-title::before {
     content: "Javascript:";
     color: var(--titlesColor);
     font-size: 1.4em;
 }
 
-.css-title::before{
+.css-title::before {
     content: "CSS:";
-    color: var(--titlesColor); 
+    color: var(--titlesColor);
     font-size: 1.4em;
 }
 
-.framework-link{
+.fw-popUp-div {
     align-self: start;
+    position: relative;
+    min-width: 75%;
+    max-width: 100%;
+}
+
+.fw-popUp-div i {
+    color: var(--divBackgroundColor);
+    display: block;
+}
+
+.speech-bubble {
+    position: absolute;
+    background: var(--miscColor2);
+    border-radius: .4em;
+    padding: 1em 1em;
+    top: 60px;
+    left: -40px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 39px solid transparent;
+    border-bottom-color: var(--miscColor2);
+    border-top: 0;
+    border-left: 0;
+    margin-left: -19.5px;
+    margin-top: -39px;
+}
+
+.framework-text {
+    display: block;
+    color: var(--divBackgroundColor);
+}
+
+.framework-button {
     margin-bottom: 0.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .html-level::after {

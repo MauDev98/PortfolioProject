@@ -118,29 +118,46 @@
     </section>
     <!-- ABOUT SECTION END -->
     <!-- TECHNOLOGIES SECTION START -->
-    <section id="technologies-sec">
-      <div class="technologies-container">
+    <section >
+      <div id="technologies-sec" class="technologies-container">
         <h1 class="title-style">TECHNOLOGIES</h1>
         <div class="technologies-grid">
+          <!-- HTML DIV -->
           <div id="html" class="tech-div">
-            <p class="text-style tech-title html-title">The bones of the web.</p>
+            <p class="text-style tech-title html-title">
+              The bones of the web.
+            </p>
             <i class="fab fa-html5 fa-10x"></i>
             <p class="text-style k-level">Knowledge level:</p>
             <div class="proficiency-level html-level"></div>
           </div>
+          <!-- CSS DIV -->
           <div id="css" class="tech-div">
             <p class="text-style tech-title css-title">
               It's not about how much you can lift, it's how cool you look.
             </p>
-            <button class="text-style framework-link">Frameworks</button>
-            <p class="text-style not-visible">I know how to use Bootstrap</p>
+            <div class="fw-popUp-div">
+              <div class="not-visible speech-bubble" id="css-framework-div">
+                <i class="fab fa-bootstrap fa-8x"></i>
+                <p class="text-style framework-text">
+                  I know how to use Bootstrap
+                </p>
+              </div>
+              <button
+                id="css-framework-button"
+                class="text-style framework-button"
+              >
+                Frameworks
+              </button>
+            </div>
             <i class="fab fa-css3 fa-10x"></i>
             <p class="text-style k-level">Knowledge level:</p>
             <div class="proficiency-level css-level"></div>
           </div>
+          <!-- JS DIV -->
           <div id="javacript" class="tech-div">
             <p class="text-style tech-title js-title">
-            CSS is nice, for everything else, there's javascript.
+              CSS is nice, for everything else, there's javascript.
             </p>
             <i class="fab fa-js-square fa-10x"></i>
             <p class="text-style k-level">Knowledge level:</p>
