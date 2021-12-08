@@ -54,28 +54,40 @@ function clickHandler(e) {
 //DIV APPEAR ON SCROLL
 
 //FRAMEWORKS ACTION
-const frameworkLinks = document.getElementsByClassName("framework-link")
+const cssFrameworkButton = document.getElementById("css-framework-button")
+const cssFrameworkText = document.getElementById("css-framework-div")
+const technologiesDiv = document.getElementById("technologies-sec");
 
-for (const frameworkLink of frameworkLinks){
-    frameworkLink.addEventListener("click", frameworkPopUp)
+function hasClass(ele, className) {
+    if (ele.classList.contains(className)) {
+        return true
+    } else {
+        return false
+    }
 }
 
-function frameworkPopUp(e) {
-    e.epreventDefault();
-    this.classList.remove("not-visible")
+function showPopUp(button, popUp, event) {
+    button.addEventListener(event, function(e) {
+        const makeVisible = "is-visible"
+        console.log("making visible");
+        popUp.classList.add(makeVisible)
+        e.stopPropagation();
+    })
 }
+
+function hidePopUp(toHide, event) {
+    window.addEventListener(event,function(e){
+        const makeVisible = "is-visible"
+        if (hasClass(toHide, makeVisible) == true){
+            e.preventDefault();
+            toHide.classList.remove(makeVisible)
+        }
+    })
+}
+
+showPopUp(cssFrameworkButton, cssFrameworkText, "click")
+hidePopUp(cssFrameworkText,"click")
+
+
 
 //Fix this by removing not visible class to the p tag, idiot
-
-
-
-
-
-
-
-
-
-
-
-
-
