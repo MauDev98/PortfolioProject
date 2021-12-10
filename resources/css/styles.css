@@ -6,6 +6,7 @@
     --miscColor: #6B818C;
     --miscColor2: #F1BF98;
     --miscColorRGB: rgb(107, 129, 140, 0.75);
+    --mainFont: "AnonymousPro";
 }
 
 body {
@@ -37,13 +38,13 @@ body {
 }
 
 .title-style {
-    font-family: "Spacemono Nerdfont";
+    font-family: "AnonymousPro";
     font-size: 2em;
     color: var(--titlesColor);
 }
 
 .text-style {
-    font-family: "Spacemono Nerdfont";
+    font-family: "AnonymousPro";
     font-size: 1.1em;
     color: var(--textColor);
 }
@@ -368,7 +369,7 @@ body {
 }
 
 .tech-div {
-    padding: 0 2em;
+    padding: 0 2em 1em 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -377,11 +378,12 @@ body {
 }
 
 .tech-div i {
-    color: var(--miscColor);
+    color: var(--miscColor2);
 }
 
 .tech-title {
     font-size: 1.2em;
+    margin: 0;
 }
 
 .html-title::before {
@@ -402,11 +404,25 @@ body {
     font-size: 1.4em;
 }
 
+.python-title::before{
+    content: "Python:";
+    color: var(--titlesColor);
+    font-size: 1.4em;
+}
+
+.other-title::before{
+    content: "Honorable mentions:";
+    color: var(--titlesColor);
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
 .fw-popUp-div {
-    align-self: start;
     position: relative;
     min-width: 75%;
     max-width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .fw-popUp-div i {
@@ -418,9 +434,9 @@ body {
     position: absolute;
     background: var(--miscColor2);
     border-radius: .4em;
-    padding: 1em 1em;
-    top: 60px;
-    left: -40px;
+    padding: 0em 1em;
+    top: 110px;
+    left: -10px;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -449,11 +465,23 @@ body {
 }
 
 .framework-button {
-    margin-bottom: 0.5em;
-    background: none;
+    margin: 2em;
+    padding: 1em 1em;
+    border-radius: 10px;
+    display: block;
+    background: var(--miscColor);
     border: none;
     cursor: pointer;
-    text-decoration: underline;
+}
+
+.framework-button:after{
+    content: "Frameworks"
+}
+
+.framework-button:hover:after{
+    content: "Click me";
+    text-transform: uppercase;
+    color: var(--titlesColor)
 }
 
 .html-level::after {
@@ -509,6 +537,64 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+#other-langs{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 100%;
+}
+
+#other-langs p{
+    font-size: 1em;
+}
+
+.other-tech-div{
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: 100%;
+    height: 100%;
+}
+
+.linux-and-php{
+    display: flex;
+    flex-direction: row;
+}
+
+.linux-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.php-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.php-title::before{
+    content: "PHP:";
+    color: var(--titlesColor);
+    font-size: 1.4em;
+}
+
+.linux-title::before{
+    content: "GNU Linux:";
+    color: var(--titlesColor);
+    font-size: 1.4em;
+}
+
+.linux-types{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 1em;
+}
+
 
 
 /* TECNOLOGIES SECTION STYLES END */
