@@ -9,6 +9,10 @@
       src="https://kit.fontawesome.com/907e2023f1.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -124,23 +128,25 @@
         <div class="technologies-grid">
           <!-- HTML DIV -->
           <div id="html" class="tech-div">
+            <i class="fab fa-html5 fa-10x"></i>
             <p class="text-style tech-title html-title">
               The bones of the web.
             </p>
-            <i class="fab fa-html5 fa-10x"></i>
             <p class="text-style k-level">Knowledge level:</p>
             <div class="proficiency-level html-level"></div>
           </div>
           <!-- CSS DIV -->
           <div id="css" class="tech-div">
+            <i class="devicons devicons-css3"></i>
             <p class="text-style tech-title css-title">
               It's not about how much you can lift, it's how cool you look.
             </p>
             <div class="fw-popUp-div">
               <div class="not-visible speech-bubble" id="css-framework-div">
                 <i class="fab fa-bootstrap fa-8x"></i>
-                <p class="text-style framework-text">
-                  I know how to use Bootstrap
+                <p class="text-style framework-text" id="bootstrap-desc">
+                  I've worked extensively with this front-end framework and I
+                  know how to use it very well.
                 </p>
               </div>
               <button
@@ -148,33 +154,37 @@
                 class="text-style framework-button"
               ></button>
             </div>
-            <i class="fab fa-css3 fa-10x"></i>
             <p class="text-style k-level">Knowledge level:</p>
             <div class="proficiency-level css-level"></div>
           </div>
           <!-- JS DIV -->
-          <div id="javacript" class="tech-div">
+          <div id="javascript" class="tech-div">
+            <i class="fab fa-js-square fa-10x"></i>
             <p class="text-style tech-title js-title">
               CSS is nice, for everything else, there's javascript.
             </p>
             <div class="fw-popUp-div">
               <div class="not-visible speech-bubble" id="js-framework-div">
-                <i class="fab fa-bootstrap fa-8x"></i>
-                <p class="text-style framework-text">
-                  I know how to use Jquery and React.
-                </p>
+                <div class="text-style">
+                  <i class="fab fa-react fa-8x"></i>
+                  <p>React</p>
+                </div>
+                <div class="text-style" id="jquery">
+                  <i class="devicons devicons-jquery"></i>
+                  <p>Jquery</p>
+                </div>
               </div>
               <button
                 id="js-framework-button"
                 class="text-style framework-button"
               ></button>
             </div>
-            <i class="fab fa-js-square fa-10x"></i>
             <p class="text-style k-level">Knowledge level:</p>
             <div class="proficiency-level js-level"></div>
           </div>
           <!-- PYTHON DIV -->
           <div id="python" class="tech-div">
+            <i class="fab fa-python fa-10x"></i>
             <p class="text-style tech-title python-title">
               It's not about how much you can lift, it's how cool you look.
             </p>
@@ -190,50 +200,105 @@
                 class="text-style framework-button"
               ></button>
             </div>
-            <i class="fab fa-python fa-10x"></i>
             <p class="text-style k-level">Knowledge level:</p>
             <div class="proficiency-level css-level"></div>
           </div>
           <!--  HONORABLE MENTIONS -->
-          <div id="other-langs">
+          <section id="other-langs">
             <p class="text-style tech-title other-title"></p>
             <!-- OTHER TECH DIV -->
             <div class="other-tech-div">
               <div class="linux-and-php">
                 <!-- LINUX DIV -->
                 <div class="linux-div">
-                  <p class="text-style linux-title">
-                    The free software almost everyone pays for
-                  </p>
                   <i class="fab fa-linux fa-7x"></i>
-                  <div class="linux-types">
-                    <p class="text-style">Desktop</p>
-                    <p class="text-style">Server</p>
+                  <p class="text-style linux-title">
+                    The free software almost everyone pays for.
+                  </p>
+                  <div class="linux-bubble-div">
+                    <div class="speech-bubble not-visible" id="linux-bubble">
+                      <ul class="text-style">
+                        <li>
+                          I have worked both with linux server and linux desktop
+                          distributions.
+                        </li>
+                        <li>
+                          I have been able to set-up a Ubuntu server tu run a
+                          web application developed with flask.
+                        </li>
+                        <li>
+                          I have used many desktop linux distributions, I even
+                          managed to install Arch Linux successfully without the
+                          wiki but I don't use it by the way. I daily drove
+                          Fedora for about a year.
+                        </li>
+                      </ul>
+                    </div>
+                    <button
+                      id="learn-more-linux"
+                      class="text-style learn-more"
+                    ></button>
                   </div>
                 </div>
                 <!-- PHP DIV -->
                 <div class="php-div">
-                  <p class="text-style php-title">The cheapest backend ever.</p>
                   <i class="fab fa-php fa-7x"></i>
-                  <p class="text-style not-visible">
-                    I have not studied PHP per se but I have used it many times
-                    in other projects to treat input data and send it to an
-                    email, I am familiar with the syntax and I believe I can
-                    learn a framework easily.
-                  </p>
+                  <p class="text-style php-title">The cheapest backend ever.</p>
+                  <div class="php-bubble-div">
+                    <div class="speech-bubble not-visible" id="php-bubble">
+                      <p class="text-style">
+                        I have not studied PHP formally but I have used it many
+                        times in other projects to treat input data and send it
+                        to an email, I am familiar with the syntax and I believe
+                        I can learn a framework easily.
+                      </p>
+                    </div>
+                    <button
+                      id="learn-more-php"
+                      class="text-style learn-more"
+                    ></button>
+                  </div>
                 </div>
               </div>
               <!-- WORKFLOW -->
+              <div class="git">
+                <div class="git-icons">
+                  <i class="fab fa-git-alt fa-7x"></i
+                  ><i class="fab fa-github fa-7x"></i>
+                </div>
+                <p class="text-style git-title">Never push to master</p>
+                <div class="fw-popUp-div">
+                  <div class="speech-bubble not-visible" id="git-bubble">
+                    <p class="text-style">
+                      I have not studied PHP formally but I have used it many
+                      times in other projects to treat input data and send it to
+                      an email, I am familiar with the syntax and I believe I
+                      can learn a framework easily.
+                    </p>
+                  </div>
+                  <button id="learn-more-git" class="text-style learn-more"></button>
+                </div>
+              </div>
               <div class="my-workflow">
-                <p class="text-style">
-                  For those who may be interested <a></a>
-                </p>
+                <i class="fas fa-tools fa-7x"></i>
+                <p class="text-style">For those who may be interested:</p>
+                  <div class="speech-bubble not-visible" id="workflow-bubble">
+                    <p class="text-style">
+                      I have not studied PHP formally but I have used it many
+                      times in other projects to treat input data and send it to
+                      an email, I am familiar with the syntax and I believe I
+                      can learn a framework easily.
+                    </p>
+                  </div>
+                  <button id="workflow-button" class="text-style learn-more"></button>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </section>
+    <section class="projects-section"></section>
     <!-- TECHNOLOGIES SECTION END -->
     <!-- SCRIPTS SECTIONS START -->
     <script src="./resources/js/scripts.js"></script>

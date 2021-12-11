@@ -58,6 +58,11 @@ const cssFrameworkButton = document.getElementById("css-framework-button")
 const cssFrameworkText = document.getElementById("css-framework-div")
 const jsFrameworkButton = document.getElementById("js-framework-button");
 const jsFrameworkText = document.getElementById("js-framework-div");
+const linuxLearnMoreButton = document.getElementById("learn-more-linux") ;
+const linuxLearnMoreText = document.getElementById("linux-bubble");
+const phpLearnMoreButton = document.getElementById("learn-more-php");
+const phpLearnMoreText = document.getElementById("php-bubble");
+
 
 function hasClass(ele, className) {
     if (ele.classList.contains(className)) {
@@ -92,8 +97,12 @@ function hidePopUp(toHide, event) {
 
 showPopUp(cssFrameworkButton, cssFrameworkText, "click")
 showPopUp(jsFrameworkButton,jsFrameworkText, "click")
+showPopUp(linuxLearnMoreButton,linuxLearnMoreText, "click")
+showPopUp(phpLearnMoreButton,phpLearnMoreText, "click")
 hidePopUp(jsFrameworkText,"click")
 hidePopUp(cssFrameworkText, "click")
+hidePopUp(linuxLearnMoreText,"click")
+hidePopUp(phpLearnMoreText, "click")
 
 
 //Fix this by removing not visible class to the p tag, idiot

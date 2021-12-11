@@ -1,10 +1,10 @@
 :root {
     --typeWriterSpeed: 3s;
     --textColor: #EEE5E9;
-    --titlesColor: #CC2936;
+    --titlesColor: #F1BF98;
     --divBackgroundColor: #08415C;
     --miscColor: #6B818C;
-    --miscColor2: #F1BF98;
+    --miscColor2: #04212F;
     --miscColorRGB: rgb(107, 129, 140, 0.75);
     --mainFont: "AnonymousPro";
 }
@@ -32,19 +32,14 @@ body {
     src: url(../fonts/AnonymousPro/Anonymice\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf);
 }
 
-@font-face {
-    font-family: "Spacemono Nerdfont";
-    src: url(../fonts/SpaceMono/Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf);
-}
-
 .title-style {
-    font-family: "AnonymousPro";
+    font-family: var(--mainFont);
     font-size: 2em;
     color: var(--titlesColor);
 }
 
 .text-style {
-    font-family: "AnonymousPro";
+    font-family: var(--mainFont);
     font-size: 1.1em;
     color: var(--textColor);
 }
@@ -116,7 +111,7 @@ body {
     color: var(--textColor);
     cursor: pointer;
     font-size: 1em;
-    font-family: "Spacemono Nerdfont";
+    font-family: var(--mainFont);
     display: inline-block;
 }
 
@@ -153,7 +148,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 200;
+    z-index: 2000;
 }
 
 @media all and (max-width: 991.98px) {
@@ -213,7 +208,7 @@ body {
 }
 
 .presentation-title {
-    font-family: "Spacemono Nerdfont";
+    font-family: var(--mainFont);
     color: var(--textColor);
     position: relative;
     margin: 0 auto;
@@ -229,7 +224,7 @@ body {
 
 .presentation-subtitle {
     margin-top: 2em;
-    font-family: "Spacemono Nerdfont";
+    font-family: var(--mainFont);
     opacity: 0;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease calc(var(--typeWriterSpeed) + 2s) forwards;
@@ -369,7 +364,7 @@ body {
 }
 
 .tech-div {
-    padding: 0 2em 1em 2em;
+    padding: 0 2em 5em 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -379,6 +374,7 @@ body {
 
 .tech-div i {
     color: var(--miscColor2);
+    padding-bottom: 0.2em;
 }
 
 .tech-title {
@@ -387,9 +383,17 @@ body {
 }
 
 .html-title::before {
-    content: "HTML:";
+    content: "HTML5:";
     color: var(--titlesColor);
     font-size: 1.4em;
+}
+
+.k-level{
+    margin-top: 0;
+}
+
+#html .tech-title{
+    padding-bottom: 2em;
 }
 
 .js-title::before {
@@ -399,28 +403,34 @@ body {
 }
 
 .css-title::before {
-    content: "CSS:";
+    content: "CSS3:";
     color: var(--titlesColor);
     font-size: 1.4em;
 }
 
-.python-title::before{
+.python-title::before {
     content: "Python:";
     color: var(--titlesColor);
     font-size: 1.4em;
 }
 
-.other-title::before{
+.other-title::before {
     content: "Honorable mentions:";
     color: var(--titlesColor);
     font-size: 1.4em;
     text-transform: uppercase;
 }
 
-.fw-popUp-div {
+#css .fw-popUp-div {
     position: relative;
-    min-width: 75%;
-    max-width: 100%;
+    width: 25em;
+    display: flex;
+    justify-content: center;
+}
+
+#javascript .fw-popUp-div {
+    position: relative;
+    width: 25em;
     display: flex;
     justify-content: center;
 }
@@ -432,16 +442,17 @@ body {
 
 .speech-bubble {
     position: absolute;
-    background: var(--miscColor2);
+    background: var(--titlesColor);
     border-radius: .4em;
     padding: 0em 1em;
-    top: 110px;
+    top: 100px;
     left: -10px;
     max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 }
 
 .speech-bubble::after {
@@ -452,12 +463,37 @@ body {
     width: 0;
     height: 0;
     border: 39px solid transparent;
-    border-bottom-color: var(--miscColor2);
+    border-bottom-color: var(--titlesColor);
     border-top: 0;
     border-left: 0;
     margin-left: -19.5px;
     margin-top: -39px;
 }
+
+.speech-bubble i{
+    padding: 0.05em 0.05em;
+}
+
+#bootstrap-desc::before{
+    content: "Bootstrap: ";
+    color: var(--miscColor2);
+    text-transform: uppercase
+}
+
+#js-framework-div{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+}
+
+#js-framework-div .text-style{
+    color: var(--miscColor2);
+}
+
+#jquery i{
+    font-size: 8em;
+}
+
 
 .framework-text {
     display: block;
@@ -465,7 +501,7 @@ body {
 }
 
 .framework-button {
-    margin: 2em;
+    margin: 1em;
     padding: 1em 1em;
     border-radius: 10px;
     display: block;
@@ -474,11 +510,11 @@ body {
     cursor: pointer;
 }
 
-.framework-button:after{
+.framework-button:after {
     content: "Frameworks"
 }
 
-.framework-button:hover:after{
+.framework-button:hover:after {
     content: "Click me";
     text-transform: uppercase;
     color: var(--titlesColor)
@@ -487,7 +523,7 @@ body {
 .html-level::after {
     content: "100%";
     color: #000;
-    font-family: "Spacemono Nerdfont";
+    font-family: var(--mainFont);
     font-size: 1.1em;
     text-align: center;
     display: absolute;
@@ -505,7 +541,7 @@ body {
 .css-level::after {
     content: "90%";
     color: #000;
-    font-family: "Spacemono Nerdfont";
+    font-family: var(--mainFont);
     font-size: 1.1em;
     text-align: center;
     display: absolute;
@@ -520,10 +556,15 @@ body {
     border-bottom-right-radius: 10px;
 }
 
+.devicons-css3{
+    font-size: 10em;
+    /* padding-bottom: 0 !important; */
+}
+
 .js-level::after {
     content: "80%";
     color: #000;
-    font-family: "Spacemono Nerdfont";
+    font-family: var(--mainFont);
     font-size: 1.1em;
     text-align: center;
     display: absolute;
@@ -538,29 +579,46 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-#other-langs{
+#other-langs {
     grid-column-start: 2;
     grid-column-end: 4;
-    height: 100%;
+    width: 100%;
 }
 
-#other-langs p{
+#other-langs p {
     font-size: 1em;
 }
 
-.other-tech-div{
+.other-tech-div {
     display: grid;
-    grid-template-rows: repeat(2, 50%);
-    grid-template-columns: 100%;
-    height: 100%;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 1em;
 }
 
-.linux-and-php{
+.linux-and-php {
+    margin-top: 1.5em;
     display: flex;
     flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
-.linux-div{
+.linux-and-php i{
+    color: var(--miscColor2)
+}
+
+.linux-and-php .speech-bubble{
+    top: 60px;
+    left: -10px;
+}
+
+.linux-bubble-div .text-style, 
+.php-bubble-div .text-style{
+    color: var(--divBackgroundColor);
+    font-size: 1em;
+}
+
+.linux-div {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -569,7 +627,40 @@ body {
     margin-right: 1em;
 }
 
-.php-div{
+.linux-bubble-div{
+    position: relative;
+    min-width: 75%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 1em;
+}
+
+.linux-bubble-div ul{
+    padding-left: 0.5em;
+}
+
+.learn-more{
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    display: block;
+    background: var(--miscColor);
+    border: none;
+    cursor: pointer;
+}
+
+.learn-more:after {
+    content: "Learn more";
+    color: var(--textColor);
+}
+
+.learn-more:hover:after {
+    content: "Click me";
+    text-transform: uppercase;
+    color: var(--titlesColor)
+}
+
+.php-div {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -577,24 +668,90 @@ body {
     align-items: center;
 }
 
-.php-title::before{
-    content: "PHP:";
+.php-bubble-div{
+    position: relative;
+    min-width: 75%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.php-title::before {
+    content: "PHP: ";
     color: var(--titlesColor);
     font-size: 1.4em;
 }
 
-.linux-title::before{
-    content: "GNU Linux:";
+.linux-title::before {
+    content: "GNU Linux: ";
     color: var(--titlesColor);
     font-size: 1.4em;
 }
 
-.linux-types{
+.linux-types {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 1em;
 }
 
+.git-title::before{
+    content: "Git and Github: ";
+    color: var(--titlesColor);
+    font-size: 1.4em;
+}
 
+.git-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
 
+.git-icons i{
+    justify-self: center;
+    color: var(--miscColor2)
+}
+
+.git .fw-popUp-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.git .fw-popUp-div .text-style{
+    color: var(--divBackgroundColor);
+    font-size: 1em;
+}
+
+.git .learn-more::after{
+    content: "Github repositories";
+    color: var(--textColor);
+    z-index: -1;
+}
+
+/* fix learn more hover button effect, I do now know why it is not working */
+
+.my-workflow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-workflow i{
+    color: var(--miscColor2)
+}
+
+.my-workflow .learn-more::after{
+
+}
 /* TECNOLOGIES SECTION STYLES END */
+
+
+.projects-section{
+    padding: 1em 2em 3em 2em;
+    height: 100vh;
+    width: 70vw;
+    margin: 2em auto;
+    background-color: var(--divBackgroundColor);
+    border-radius: 10px;
+}
