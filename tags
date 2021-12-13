@@ -1,76 +1,405 @@
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
-!_TAG_PROGRAM_NAME	Exuberant Ctags	//
-!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-Object.deepExtend	resources/js/particles/particles.js	/^Object.deepExtend = function(destination, source) {$/;"	f
-canvas	resources/js/particles/particles.js	/^    canvas: {$/;"	p	class:pJS.pJS
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/maudev/Documents/Projects/PortfolioProject/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20211212.0/
+#bootstrap-desc::before	resources/css/styles.css	/^#bootstrap-desc::before{$/;"	i
+#css .fw-popUp-div	resources/css/styles.css	/^#css .fw-popUp-div {$/;"	c
+#html .tech-title	resources/css/styles.css	/^#html .tech-title{$/;"	c
+#javascript .fw-popUp-div	resources/css/styles.css	/^#javascript .fw-popUp-div {$/;"	c
+#jquery i	resources/css/styles.css	/^#jquery i{$/;"	s
+#js-framework-div	resources/css/styles.css	/^#js-framework-div{$/;"	i
+#js-framework-div .text-style	resources/css/styles.css	/^#js-framework-div .text-style{$/;"	c
+#other-langs	resources/css/styles.css	/^#other-langs {$/;"	i
+#other-langs p	resources/css/styles.css	/^#other-langs p {$/;"	s
+.about-description	resources/css/styles.css	/^.about-description {$/;"	c
+.about-img	resources/css/styles.css	/^.about-img {$/;"	c
+.about-img-div	resources/css/styles.css	/^.about-img-div {$/;"	c
+.about-paragrap-text	resources/css/styles.css	/^.about-paragrap-text {$/;"	c
+.about-section	resources/css/styles.css	/^.about-section {$/;"	c
+.arrow-guide	resources/css/styles.css	/^.arrow-guide {$/;"	c
+.close-button	resources/css/styles.css	/^.close-button {$/;"	c
+.css-level::after	resources/css/styles.css	/^.css-level::after {$/;"	c
+.css-title::before	resources/css/styles.css	/^.css-title::before {$/;"	c
+.devicons-css3	resources/css/styles.css	/^.devicons-css3{$/;"	c
+.framework-button	resources/css/styles.css	/^.framework-button {$/;"	c
+.framework-button:after	resources/css/styles.css	/^.framework-button:after {$/;"	c
+.framework-button:hover:after	resources/css/styles.css	/^.framework-button:hover:after {$/;"	c
+.framework-text	resources/css/styles.css	/^.framework-text {$/;"	c
+.fw-popUp-div i	resources/css/styles.css	/^.fw-popUp-div i {$/;"	s
+.git .fw-popUp-div	resources/css/styles.css	/^.git .fw-popUp-div{$/;"	c
+.git .fw-popUp-div .text-style	resources/css/styles.css	/^.git .fw-popUp-div .text-style{$/;"	c
+.git .learn-more:after	resources/css/styles.css	/^.git .learn-more:after{$/;"	c
+.git .learn-more:hover:after	resources/css/styles.css	/^.git .learn-more:hover:after{$/;"	c
+.git-icons	resources/css/styles.css	/^.git-icons{$/;"	c
+.git-icons i	resources/css/styles.css	/^.git-icons i{$/;"	s
+.git-title::before	resources/css/styles.css	/^.git-title::before{$/;"	c
+.home-ele	resources/css/styles.css	/^.home-ele {$/;"	c
+.home-nav	resources/css/styles.css	/^.home-nav {$/;"	c
+.html-level::after	resources/css/styles.css	/^.html-level::after {$/;"	c
+.html-title::before	resources/css/styles.css	/^.html-title::before {$/;"	c
+.img-raised	resources/css/styles.css	/^.img-raised {$/;"	c
+.is-visible	resources/css/styles.css	/^.is-visible {$/;"	c
+.js-level::after	resources/css/styles.css	/^.js-level::after {$/;"	c
+.js-title::before	resources/css/styles.css	/^.js-title::before {$/;"	c
+.k-level	resources/css/styles.css	/^.k-level{$/;"	c
+.learn-more	resources/css/styles.css	/^.learn-more{$/;"	c
+.learn-more:after	resources/css/styles.css	/^.learn-more:after {$/;"	c
+.learn-more:hover:after	resources/css/styles.css	/^.learn-more:hover:after {$/;"	c
+.linux-and-php	resources/css/styles.css	/^.linux-and-php {$/;"	c
+.linux-and-php .speech-bubble	resources/css/styles.css	/^.linux-and-php .speech-bubble{$/;"	c
+.linux-and-php i	resources/css/styles.css	/^.linux-and-php i{$/;"	s
+.linux-bubble-div	resources/css/styles.css	/^.linux-bubble-div{$/;"	c
+.linux-bubble-div .text-style	resources/css/styles.css	/^.linux-bubble-div .text-style, $/;"	c
+.linux-bubble-div ul	resources/css/styles.css	/^.linux-bubble-div ul{$/;"	s
+.linux-div	resources/css/styles.css	/^.linux-div {$/;"	c
+.linux-title::before	resources/css/styles.css	/^.linux-title::before {$/;"	c
+.linux-types	resources/css/styles.css	/^.linux-types {$/;"	c
+.my-workflow	resources/css/styles.css	/^.my-workflow{$/;"	c
+.my-workflow .learn-more:after	resources/css/styles.css	/^.my-workflow .learn-more:after{$/;"	c
+.my-workflow .learn-more:hover:after	resources/css/styles.css	/^.my-workflow .learn-more:hover:after{$/;"	c
+.my-workflow .text-style	resources/css/styles.css	/^.my-workflow .text-style{$/;"	c
+.my-workflow i	resources/css/styles.css	/^.my-workflow i{$/;"	s
+.nav-container	resources/css/styles.css	/^    .nav-container {$/;"	c
+.nav-container	resources/css/styles.css	/^.nav-container {$/;"	c
+.nav-element	resources/css/styles.css	/^    .nav-element {$/;"	c
+.nav-element	resources/css/styles.css	/^.nav-element {$/;"	c
+.nav-link	resources/css/styles.css	/^    .nav-link {$/;"	c
+.nav-link	resources/css/styles.css	/^.nav-link {$/;"	c
+.nav-link i	resources/css/styles.css	/^.nav-link i {$/;"	s
+.navigation-bar	resources/css/styles.css	/^    .navigation-bar {$/;"	c
+.navigation-bar	resources/css/styles.css	/^.navigation-bar {$/;"	c
+.navigation-bar-scroll	resources/css/styles.css	/^.navigation-bar-scroll {$/;"	c
+.not-visible	resources/css/styles.css	/^.not-visible {$/;"	c
+.other-tech-div	resources/css/styles.css	/^.other-tech-div {$/;"	c
+.other-title::before	resources/css/styles.css	/^.other-title::before {$/;"	c
+.php-bubble-div	resources/css/styles.css	/^.php-bubble-div{$/;"	c
+.php-bubble-div .text-style	resources/css/styles.css	/^.php-bubble-div .text-style{$/;"	c
+.php-div	resources/css/styles.css	/^.php-div {$/;"	c
+.php-title::before	resources/css/styles.css	/^.php-title::before {$/;"	c
+.presentation-container	resources/css/styles.css	/^.presentation-container {$/;"	c
+.presentation-subtitle	resources/css/styles.css	/^    .presentation-subtitle {$/;"	c
+.presentation-subtitle	resources/css/styles.css	/^.presentation-subtitle {$/;"	c
+.presentation-title	resources/css/styles.css	/^    .presentation-title {$/;"	c
+.presentation-title	resources/css/styles.css	/^.presentation-title {$/;"	c
+.proficiency-level	resources/css/styles.css	/^.proficiency-level {$/;"	c
+.projects-section	resources/css/styles.css	/^.projects-section{$/;"	c
+.python-title::before	resources/css/styles.css	/^.python-title::before {$/;"	c
+.responsive-button	resources/css/styles.css	/^    .responsive-button {$/;"	c
+.responsive-button	resources/css/styles.css	/^.responsive-button {$/;"	c
+.resume-link	resources/css/styles.css	/^.resume-link {$/;"	c
+.speech-bubble	resources/css/styles.css	/^.speech-bubble {$/;"	c
+.speech-bubble i	resources/css/styles.css	/^.speech-bubble i{$/;"	s
+.speech-bubble::after	resources/css/styles.css	/^.speech-bubble::after {$/;"	c
+.tech-div	resources/css/styles.css	/^.tech-div {$/;"	c
+.tech-div i	resources/css/styles.css	/^.tech-div i {$/;"	s
+.tech-title	resources/css/styles.css	/^.tech-title {$/;"	c
+.technologies-container	resources/css/styles.css	/^.technologies-container {$/;"	c
+.technologies-grid	resources/css/styles.css	/^.technologies-grid {$/;"	c
+.text-style	resources/css/styles.css	/^.text-style {$/;"	c
+.title-style	resources/css/styles.css	/^.title-style {$/;"	c
+.titles-container	resources/css/styles.css	/^.titles-container {$/;"	c
+:root	resources/css/styles.css	/^:root {$/;"	s
+About me	index.html	/^        <h1 class="title-style">About me<\/h1>$/;"	h
+AnonymousFunction3cfc3f6e0100	resources/js/scripts.js	/^    buttonEle.addEventListener(event, function(e) {$/;"	f
+AnonymousFunction3cfc3f6e0200	resources/js/scripts.js	/^    window.addEventListener(event, function(e) {$/;"	f
+AnonymousFunction67095b630100	resources/js/particles/particles.js	/^      window.addEventListener('resize', function(){$/;"	f
+AnonymousFunction67095b630200	resources/js/particles/particles.js	/^      pJS.interactivity.el.addEventListener('mousemove', function(e){$/;"	f
+AnonymousFunction67095b630300	resources/js/particles/particles.js	/^      pJS.interactivity.el.addEventListener('mouseleave', function(e){$/;"	f
+AnonymousFunction67095b630400	resources/js/particles/particles.js	/^      pJS.interactivity.el.addEventListener('click', function(){$/;"	f
+AnonymousFunction67095b630500	resources/js/particles/particles.js	/^              setTimeout(function(){$/;"	f	function:AnonymousFunction67095b630400
+AnonymousFunction67095b630600	resources/js/particles/particles.js	/^        coloredSvgXml = svgXml.replace(rgbHex, function (m, r, g, b) {$/;"	f	function:pJS.pJS.pJS.pJS
+AnonymousFunction67095b630700	resources/js/particles/particles.js	/^    img.addEventListener('load', function(){$/;"	f
+AnonymousFunction67095b630800	resources/js/particles/particles.js	/^        img.addEventListener('load', function(){$/;"	f
+AnonymousFunction67095b630900	resources/js/particles/particles.js	/^  hex = hex.replace(shorthandRegex, function(m, r, g, b) {$/;"	f	function:hexToRgb
+Hello, my name is Mauricio	index.html	/^          <h1 class="presentation-title">Hello, my name is Mauricio<\/h1>$/;"	h
+Let me introduce myself...	index.html	/^          <h2 class="presentation-subtitle">Let me introduce myself...<\/h2>$/;"	i
+TECHNOLOGIES	index.html	/^        <h1 class="title-style">TECHNOLOGIES<\/h1>$/;"	h
+aboutSection	index.html	/^    <section class="about-section" id="aboutSection">$/;"	I
+anim	resources/js/particles/particles.js	/^        anim: {$/;"	c	class:pJS.pJS.particles.opacity
+anim	resources/js/particles/particles.js	/^        anim: {$/;"	c	class:pJS.pJS.particles.size
+array	resources/js/particles/particles.js	/^      array: []$/;"	p	class:pJS.pJS.particles
+attract	resources/js/particles/particles.js	/^        attract: {$/;"	c	class:pJS.pJS.particles.move
+author	package.json	/^  "author": "",$/;"	s
+author	resources/js/package.json	/^  "author": "",$/;"	s
+b	resources/js/particles/particles.js	/^            b: color.value.b$/;"	p	class:color.color
+b	resources/js/particles/particles.js	/^        b: (Math.floor(Math.random() * (255 - 0 + 1)) + 0)$/;"	p	class:color.color
+body	resources/css/styles.css	/^body {$/;"	s
+bootstrap-desc	index.html	/^                <p class="text-style framework-text" id="bootstrap-desc">$/;"	I
+bounce	resources/js/particles/particles.js	/^        bounce: false,$/;"	p	class:pJS.pJS.particles.move
+bubble	resources/js/particles/particles.js	/^        bubble:{$/;"	c	class:pJS.pJS.interactivity.modes
+bugs	package.json	/^  "bugs": {$/;"	o
+cancelRequestAnimFrame	resources/js/particles/particles.js	/^window.cancelRequestAnimFrame = ( function() {$/;"	f	function:window
+canvas	resources/js/particles/particles.js	/^    canvas: {$/;"	c	class:pJS.pJS
+case	resources/js/particles/particles.js	/^      case 'bottom':$/;"	c	class:pJS.pJS.pJS
+case	resources/js/particles/particles.js	/^      case 'bottom-left':$/;"	c	class:pJS.pJS.pJS
+case	resources/js/particles/particles.js	/^      case 'bottom-right':$/;"	c	class:pJS.pJS.pJS
+case	resources/js/particles/particles.js	/^      case 'left':$/;"	c	class:pJS.pJS.pJS
+case	resources/js/particles/particles.js	/^      case 'right':$/;"	c	class:pJS.pJS.pJS
+case	resources/js/particles/particles.js	/^      case 'top':$/;"	c	class:pJS.pJS.pJS
+case	resources/js/particles/particles.js	/^      case 'top-left':$/;"	c	class:pJS.pJS.pJS
+case	resources/js/particles/particles.js	/^      case 'top-right':$/;"	c	class:pJS.pJS.pJS
 clamp	resources/js/particles/particles.js	/^function clamp(number, min, max) {$/;"	f
 clickHandler	resources/js/scripts.js	/^function clickHandler(e) {$/;"	f
-draw	resources/js/particles/particles.js	/^  pJS.fn.particle.prototype.draw = function() {$/;"	m	class:pJS.fn.particle
-h	resources/js/particles/particles.js	/^            h: color.value.h,$/;"	p	class:this.color.color
+color	resources/js/particles/particles.js	/^          color: '#ff0000'$/;"	p	class:pJS.pJS.particles.shape.stroke
+color	resources/js/particles/particles.js	/^          this.color.hsl = {$/;"	c
+color	resources/js/particles/particles.js	/^          this.color.rgb = {$/;"	c
+color	resources/js/particles/particles.js	/^        color: '#fff',$/;"	p	class:pJS.pJS.particles.line_linked
+color	resources/js/particles/particles.js	/^      color: {$/;"	c	class:pJS.pJS.particles
+color	resources/js/particles/particles.js	/^      this.color.rgb = {$/;"	c
+complete-navbar	index.html	/^    <nav class="navigation-bar" id="complete-navbar">$/;"	I
+css	index.html	/^          <div id="css" class="tech-div">$/;"	I
+css-framework-button	index.html	/^                id="css-framework-button"$/;"	I
+css-framework-div	index.html	/^              <div class="not-visible speech-bubble" id="css-framework-div">$/;"	I
+deepExtend	resources/js/particles/particles.js	/^Object.deepExtend = function(destination, source) {$/;"	f	function:Object
+default	resources/js/particles/particles.js	/^      default:$/;"	c	class:pJS.pJS.pJS
+density	resources/js/particles/particles.js	/^        density: {$/;"	c	class:pJS.pJS.particles.number
+dependencies	package-lock.json	/^  "dependencies": {$/;"	o
+dependencies	package.json	/^  "dependencies": {$/;"	o
+description	package.json	/^  "description": "",$/;"	s
+description	resources/js/package.json	/^  "description": "",$/;"	s
+detect_on	resources/js/particles/particles.js	/^      detect_on: 'canvas',$/;"	p	class:pJS.pJS.interactivity
+devDependencies	package.json	/^  "devDependencies": {},$/;"	o
+development-enviroment	index.html	/^                  <div id="development-enviroment">$/;"	I
+direction	resources/js/particles/particles.js	/^        direction: 'none',$/;"	p	class:pJS.pJS.particles.move
+distance	resources/js/particles/particles.js	/^          distance: 100,$/;"	p	class:pJS.pJS.interactivity.modes.grab
+distance	resources/js/particles/particles.js	/^          distance: 200,$/;"	p	class:pJS.pJS.interactivity.modes.bubble
+distance	resources/js/particles/particles.js	/^          distance: 200,$/;"	p	class:pJS.pJS.interactivity.modes.repulse
+distance	resources/js/particles/particles.js	/^        distance: 100,$/;"	p	class:pJS.pJS.particles.line_linked
+draw	resources/js/particles/particles.js	/^  pJS.fn.particle.prototype.draw = function() {$/;"	m	class:pJS.pJS.pJS
+duration	resources/js/particles/particles.js	/^          duration: 0.4$/;"	p	class:pJS.pJS.interactivity.modes.bubble
+duration	resources/js/particles/particles.js	/^          duration: 0.4$/;"	p	class:pJS.pJS.interactivity.modes.repulse
+el	resources/js/particles/particles.js	/^      el: canvas_el,$/;"	p	class:pJS.pJS.canvas
+enable	resources/js/particles/particles.js	/^          enable: false,$/;"	p	class:pJS.pJS.particles.move.attract
+enable	resources/js/particles/particles.js	/^          enable: false,$/;"	p	class:pJS.pJS.particles.opacity.anim
+enable	resources/js/particles/particles.js	/^          enable: false,$/;"	p	class:pJS.pJS.particles.size.anim
+enable	resources/js/particles/particles.js	/^          enable: true,$/;"	p	class:pJS.pJS.interactivity.events.onclick
+enable	resources/js/particles/particles.js	/^          enable: true,$/;"	p	class:pJS.pJS.interactivity.events.onhover
+enable	resources/js/particles/particles.js	/^          enable: true,$/;"	p	class:pJS.pJS.particles.number.density
+enable	resources/js/particles/particles.js	/^        enable: true,$/;"	p	class:pJS.pJS.particles.line_linked
+enable	resources/js/particles/particles.js	/^        enable: true,$/;"	p	class:pJS.pJS.particles.move
+events	resources/js/particles/particles.js	/^      events: {$/;"	c	class:pJS.pJS.interactivity
+firstButton	index.html	/^        <li id="firstButton" class="nav-element">$/;"	I
+fn	resources/js/particles/particles.js	/^    fn: {$/;"	c	class:pJS.pJS
+g	resources/js/particles/particles.js	/^            g: color.value.g,$/;"	p	class:color.color
+g	resources/js/particles/particles.js	/^        g: (Math.floor(Math.random() * (255 - 0 + 1)) + 0),$/;"	p	class:color.color
+git-bubble	index.html	/^                  <div class="speech-bubble not-visible" id="git-bubble">$/;"	I
+grab	resources/js/particles/particles.js	/^        grab:{$/;"	c	class:pJS.pJS.interactivity.modes
+h	resources/js/particles/particles.js	/^            h: color.value.h,$/;"	p	class:color.color
+h	resources/js/particles/particles.js	/^      h: canvas_el.offsetHeight$/;"	p	class:pJS.pJS.canvas
+hasClass	resources/js/scripts.js	/^function hasClass(ele, className) {$/;"	f
+height	resources/js/particles/particles.js	/^          height: 100$/;"	p	class:pJS.pJS.particles.shape.image
 hexToRgb	resources/js/particles/particles.js	/^function hexToRgb(hex){$/;"	f
-init	resources/js/particles/particles.js	/^      function init(){$/;"	f	function:function
+homepage	package.json	/^  "homepage": "https:\/\/github.com\/MauDev98\/PortfolioProject#readme"$/;"	s
+html	index.html	/^          <div id="html" class="tech-div">$/;"	I
+image	resources/js/particles/particles.js	/^        image: {$/;"	c	class:pJS.pJS.particles.shape
+img	resources/js/particles/particles.js	/^      this.img = {$/;"	c	class:pJS.pJS.pJS
+init	resources/js/particles/particles.js	/^      function init(){$/;"	f	function:pJS.pJS.pJS.pJS
+integrity	package-lock.json	/^      "integrity": "sha1-IThsQyjWx\/lngKIB6W7t\/AnHNvY="$/;"	s	object:dependencies.particles.js
+interact	resources/js/particles/particles.js	/^      interact: {},$/;"	p	class:pJS.pJS.fn
+interactivity	resources/js/particles/particles.js	/^    interactivity: {$/;"	c	class:pJS.pJS
+intro-div	index.html	/^    <section id="intro-div">$/;"	I
 isInArray	resources/js/particles/particles.js	/^function isInArray(value, array) {$/;"	f
+javascript	index.html	/^          <div id="javascript" class="tech-div">$/;"	I
+jquery	index.html	/^                <div class="text-style" id="jquery">$/;"	I
+js-framework-button	index.html	/^                id="js-framework-button"$/;"	I
+js-framework-div	index.html	/^              <div class="not-visible speech-bubble" id="js-framework-div">$/;"	I
+keywords	resources/js/package.json	/^  "keywords": [],$/;"	a
+l	resources/js/particles/particles.js	/^            l: color.value.l$/;"	p	class:color.color
+learn-more-git	index.html	/^                    id="learn-more-git"$/;"	I
+learn-more-linux	index.html	/^                      id="learn-more-linux"$/;"	I
+learn-more-php	index.html	/^                      id="learn-more-php"$/;"	I
+license	package.json	/^  "license": "ISC",$/;"	s
+license	resources/js/package.json	/^  "license": "ISC"$/;"	s
+line_linked	resources/js/particles/particles.js	/^          line_linked:{$/;"	c	class:pJS.pJS.interactivity.modes.grab
+line_linked	resources/js/particles/particles.js	/^      line_linked: {$/;"	c	class:pJS.pJS.particles
+line_linked_distance	resources/js/particles/particles.js	/^    line_linked_distance: pJS.particles.line_linked.distance,$/;"	p	class:pJS.pJS.pJS
+line_linked_width	resources/js/particles/particles.js	/^    line_linked_width: pJS.particles.line_linked.width,$/;"	p	class:pJS.pJS.pJS
+links	resources/js/scripts.js	/^const links = document.querySelectorAll(".nav-link");$/;"	C
+linux-bubble	index.html	/^                    <div class="speech-bubble not-visible" id="linux-bubble">$/;"	I
+load	resources/js/particles/particles.js	/^window.particlesJS.load = function(tag_id, path_config_json, callback){$/;"	f	function:window.particlesJS
+lockfileVersion	package-lock.json	/^  "lockfileVersion": 1,$/;"	n
+main	package.json	/^  "main": "index.js",$/;"	s
+main	resources/js/package.json	/^  "main": "scripts.js",$/;"	s
+mode	resources/js/particles/particles.js	/^          mode: 'grab'$/;"	p	class:pJS.pJS.interactivity.events.onhover
+mode	resources/js/particles/particles.js	/^          mode: 'push'$/;"	p	class:pJS.pJS.interactivity.events.onclick
+mode_bubble_distance	resources/js/particles/particles.js	/^    mode_bubble_distance: pJS.interactivity.modes.bubble.distance,$/;"	p	class:pJS.pJS.pJS
+mode_bubble_size	resources/js/particles/particles.js	/^    mode_bubble_size: pJS.interactivity.modes.bubble.size,$/;"	p	class:pJS.pJS.pJS
+mode_grab_distance	resources/js/particles/particles.js	/^    mode_grab_distance: pJS.interactivity.modes.grab.distance,$/;"	p	class:pJS.pJS.pJS
+mode_repulse_distance	resources/js/particles/particles.js	/^    mode_repulse_distance: pJS.interactivity.modes.repulse.distance$/;"	p	class:pJS.pJS.pJS
+modes	resources/js/particles/particles.js	/^      modes: {$/;"	c	class:pJS.pJS.interactivity
+modes	resources/js/particles/particles.js	/^      modes: {},$/;"	p	class:pJS.pJS.fn
+mouse	resources/js/particles/particles.js	/^      mouse:{}$/;"	p	class:pJS.pJS.interactivity
+move	resources/js/particles/particles.js	/^      move: {$/;"	c	class:pJS.pJS.particles
+move_speed	resources/js/particles/particles.js	/^    move_speed: pJS.particles.move.speed,$/;"	p	class:pJS.pJS.pJS
+name	package.json	/^  "name": "portfolioproject",$/;"	s
+name	resources/js/package.json	/^  "name": "js",$/;"	s
+navBtnClose	index.html	/^          id="navBtnClose"$/;"	I
+navBtnClose	resources/js/scripts.js	/^const navBtnClose = document.getElementById("navBtnClose");$/;"	C
 navbarClose	resources/js/scripts.js	/^function navbarClose() {$/;"	f
 navbarOnScroll	resources/js/scripts.js	/^function navbarOnScroll() {$/;"	f
+navbarPosition	resources/js/scripts.js	/^let navbarPosition = wholeNavbar.offsetTop;$/;"	v
 navbarToggle	resources/js/scripts.js	/^function navbarToggle() {$/;"	f
-pJS	resources/js/particles/particles.js	/^var pJS = function(tag_id, params){$/;"	c
-pJS.fn.canvasClear	resources/js/particles/particles.js	/^  pJS.fn.canvasClear = function(){$/;"	f
-pJS.fn.canvasInit	resources/js/particles/particles.js	/^  pJS.fn.canvasInit = function(){$/;"	f
-pJS.fn.canvasPaint	resources/js/particles/particles.js	/^  pJS.fn.canvasPaint = function(){$/;"	f
-pJS.fn.canvasSize	resources/js/particles/particles.js	/^  pJS.fn.canvasSize = function(){$/;"	f
-pJS.fn.interact.attractParticles	resources/js/particles/particles.js	/^  pJS.fn.interact.attractParticles  = function(p1, p2){$/;"	f
-pJS.fn.interact.bounceParticles	resources/js/particles/particles.js	/^  pJS.fn.interact.bounceParticles = function(p1, p2){$/;"	f
-pJS.fn.interact.linkParticles	resources/js/particles/particles.js	/^  pJS.fn.interact.linkParticles = function(p1, p2){$/;"	f
-pJS.fn.modes.bubbleParticle	resources/js/particles/particles.js	/^  pJS.fn.modes.bubbleParticle = function(p){$/;"	f
-pJS.fn.modes.grabParticle	resources/js/particles/particles.js	/^  pJS.fn.modes.grabParticle = function(p){$/;"	f
-pJS.fn.modes.pushParticles	resources/js/particles/particles.js	/^  pJS.fn.modes.pushParticles = function(nb, pos){$/;"	f
-pJS.fn.modes.removeParticles	resources/js/particles/particles.js	/^  pJS.fn.modes.removeParticles = function(nb){$/;"	f
-pJS.fn.modes.repulseParticle	resources/js/particles/particles.js	/^  pJS.fn.modes.repulseParticle = function(p){$/;"	f
-pJS.fn.particle	resources/js/particles/particles.js	/^  pJS.fn.particle = function(color, opacity, position){$/;"	c
-pJS.fn.particlesCreate	resources/js/particles/particles.js	/^  pJS.fn.particlesCreate = function(){$/;"	f
-pJS.fn.particlesDraw	resources/js/particles/particles.js	/^  pJS.fn.particlesDraw = function(){$/;"	f
-pJS.fn.particlesEmpty	resources/js/particles/particles.js	/^  pJS.fn.particlesEmpty = function(){$/;"	f
-pJS.fn.particlesRefresh	resources/js/particles/particles.js	/^  pJS.fn.particlesRefresh = function(){$/;"	f
-pJS.fn.particlesUpdate	resources/js/particles/particles.js	/^  pJS.fn.particlesUpdate = function(){$/;"	f
-pJS.fn.retinaInit	resources/js/particles/particles.js	/^  pJS.fn.retinaInit = function(){$/;"	f
-pJS.fn.vendors.checkBeforeDraw	resources/js/particles/particles.js	/^  pJS.fn.vendors.checkBeforeDraw = function(){$/;"	f
-pJS.fn.vendors.checkOverlap	resources/js/particles/particles.js	/^  pJS.fn.vendors.checkOverlap = function(p1, position){$/;"	f
-pJS.fn.vendors.createSvgImg	resources/js/particles/particles.js	/^  pJS.fn.vendors.createSvgImg = function(p){$/;"	f
-pJS.fn.vendors.densityAutoParticles	resources/js/particles/particles.js	/^  pJS.fn.vendors.densityAutoParticles = function(){$/;"	f
-pJS.fn.vendors.destroypJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.destroypJS = function(){$/;"	f
-pJS.fn.vendors.draw	resources/js/particles/particles.js	/^  pJS.fn.vendors.draw = function(){$/;"	f
-pJS.fn.vendors.drawShape	resources/js/particles/particles.js	/^  pJS.fn.vendors.drawShape = function(c, startX, startY, sideLength, sideCountNumerator, sideCountDenominator){$/;"	f
-pJS.fn.vendors.eventsListeners	resources/js/particles/particles.js	/^  pJS.fn.vendors.eventsListeners = function(){$/;"	f
-pJS.fn.vendors.exportImg	resources/js/particles/particles.js	/^  pJS.fn.vendors.exportImg = function(){$/;"	f
-pJS.fn.vendors.init	resources/js/particles/particles.js	/^  pJS.fn.vendors.init = function(){$/;"	f
-pJS.fn.vendors.loadImg	resources/js/particles/particles.js	/^  pJS.fn.vendors.loadImg = function(type){$/;"	f
-pJS.fn.vendors.start	resources/js/particles/particles.js	/^  pJS.fn.vendors.start = function(){$/;"	f
-process	resources/js/particles/particles.js	/^      function process(bubble_param, particles_param, p_obj_bubble, p_obj, id){$/;"	f	function:function
-r	resources/js/particles/particles.js	/^            r: color.value.r,$/;"	p	class:this.color.color
-r	resources/js/particles/particles.js	/^        r: (Math.floor(Math.random() * (255 - 0 + 1)) + 0),$/;"	p	class:this.color.color
-size_value	resources/js/particles/particles.js	/^    size_value: pJS.particles.size.value,$/;"	p	class:pJS.tmp.obj
-src	resources/js/particles/particles.js	/^        src: sh.image.src,$/;"	p	class:this.img
-window.particlesJS	resources/js/particles/particles.js	/^window.particlesJS = function(tag_id, params){$/;"	f
-window.particlesJS.load	resources/js/particles/particles.js	/^window.particlesJS.load = function(tag_id, path_config_json, callback){$/;"	f
-x	resources/js/particles/particles.js	/^              x: p.x + p.vx,$/;"	p	class:var.pos
-x	resources/js/particles/particles.js	/^        velbase = { x:-0.5, y:-0.5 };$/;"	p	class:case
-x	resources/js/particles/particles.js	/^        velbase = { x:-0.5, y:1 };$/;"	p	class:case
-x	resources/js/particles/particles.js	/^        velbase = { x:-1, y:0 };$/;"	p	class:case
-x	resources/js/particles/particles.js	/^        velbase = { x:0, y:-1 };$/;"	p	class:case
-x	resources/js/particles/particles.js	/^        velbase = { x:0, y:0 };$/;"	p	class:default
-x	resources/js/particles/particles.js	/^        velbase = { x:0, y:1 };$/;"	p	class:case
-x	resources/js/particles/particles.js	/^        velbase = { x:0.5, y:-0.5 };$/;"	p	class:case
-x	resources/js/particles/particles.js	/^        velbase = { x:0.5, y:0.5 };$/;"	p	class:case
-x	resources/js/particles/particles.js	/^        velbase = { x:1, y:-0 };$/;"	p	class:case
-x	resources/js/particles/particles.js	/^        x: p.x + normVec.x * repulseFactor,$/;"	p	class:var.pos
-x	resources/js/particles/particles.js	/^      var normVec = {x: dx_mouse\/dist_mouse, y: dy_mouse\/dist_mouse},$/;"	p	class:var.normVec
-x_left	resources/js/particles/particles.js	/^          x_left: -p.radius,$/;"	p	class:var.new_pos
-x_left	resources/js/particles/particles.js	/^          x_left: p.radius,$/;"	p	class:var.new_pos
-xhr.onreadystatechange	resources/js/particles/particles.js	/^        xhr.onreadystatechange = function (data) {$/;"	f
-y	resources/js/particles/particles.js	/^        velbase = { x:0, y:-1 };$/;"	p	class:case
-y	resources/js/particles/particles.js	/^        velbase = { x:0, y:0 };$/;"	p	class:default
-y	resources/js/particles/particles.js	/^        velbase = { x:0, y:1 };$/;"	p	class:case
-y	resources/js/particles/particles.js	/^        velbase = { x:1, y:-0 };$/;"	p	class:case
+navigationBar	index.html	/^      <ul id="navigationBar" class="nav-container">$/;"	I
+navigationBar	resources/js/scripts.js	/^const navigationBar = document.getElementById("navigationBar");$/;"	C
+nb_sides	resources/js/particles/particles.js	/^          nb_sides: 5$/;"	p	class:pJS.pJS.particles.shape.polygon
+newFunc	resources/js/try.js	/^let newFunc = (x, y) =>{$/;"	v
+new_pos	resources/js/particles/particles.js	/^        var new_pos = {$/;"	c	class:pJS.pJS.pJS
+normVec	resources/js/particles/particles.js	/^      var normVec = {x: dx_mouse\/dist_mouse, y: dy_mouse\/dist_mouse},$/;"	c	class:pJS.pJS.pJS.pJS
+number	resources/js/particles/particles.js	/^      number: {$/;"	c	class:pJS.pJS.particles
+onclick	resources/js/particles/particles.js	/^        onclick: {$/;"	c	class:pJS.pJS.interactivity.events
+onhover	resources/js/particles/particles.js	/^        onhover: {$/;"	c	class:pJS.pJS.interactivity.events
+onreadystatechange	resources/js/particles/particles.js	/^        xhr.onreadystatechange = function (data) {$/;"	f	function:xhr
+opacity	resources/js/particles/particles.js	/^            opacity: 1$/;"	p	class:pJS.pJS.interactivity.modes.grab.line_linked
+opacity	resources/js/particles/particles.js	/^        opacity: 1,$/;"	p	class:pJS.pJS.particles.line_linked
+opacity	resources/js/particles/particles.js	/^      opacity: {$/;"	c	class:pJS.pJS.particles
+opacity_min	resources/js/particles/particles.js	/^          opacity_min: 0,$/;"	p	class:pJS.pJS.particles.opacity.anim
+other-langs	index.html	/^          <div id="other-langs">$/;"	I
+out_mode	resources/js/particles/particles.js	/^        out_mode: 'out',$/;"	p	class:pJS.pJS.particles.move
+pJS	resources/js/particles/particles.js	/^  pJS.fn.canvasClear = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.canvasInit = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.canvasPaint = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.canvasSize = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.interact.attractParticles  = function(p1, p2){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.interact.bounceParticles = function(p1, p2){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.interact.linkParticles = function(p1, p2){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.modes.bubbleParticle = function(p){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.modes.grabParticle = function(p){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.modes.pushParticles = function(nb, pos){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.modes.removeParticles = function(nb){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.modes.repulseParticle = function(p){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.particle = function(color, opacity, position){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.particle.prototype.draw = function() {$/;"	c
+pJS	resources/js/particles/particles.js	/^  pJS.fn.particlesCreate = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.particlesDraw = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.particlesEmpty = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.particlesRefresh = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.particlesUpdate = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.retinaInit = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.checkBeforeDraw = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.checkOverlap = function(p1, position){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.createSvgImg = function(p){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.densityAutoParticles = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.destroypJS = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.draw = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.drawShape = function(c, startX, startY, sideLength, sideCountNumerator, sideCou/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.eventsListeners = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.exportImg = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.init = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.loadImg = function(type){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.fn.vendors.start = function(){$/;"	m
+pJS	resources/js/particles/particles.js	/^  pJS.tmp.obj = {$/;"	c
+pJS	resources/js/particles/particles.js	/^  this.pJS = {$/;"	c	class:pJS
+particles	resources/js/particles/particles.js	/^    particles: {$/;"	c	class:pJS.pJS
+particles-js	index.html	/^      <div id="particles-js" class="presentation-container">$/;"	I
+particles.js	package-lock.json	/^    "particles.js": {$/;"	o	object:dependencies
+particles.js	package.json	/^    "particles.js": "^2.0.0"$/;"	s	object:dependencies
+particlesJS	resources/js/particles/particles.js	/^window.particlesJS = function(tag_id, params){$/;"	f	function:window
+particles_nb	resources/js/particles/particles.js	/^          particles_nb: 2$/;"	p	class:pJS.pJS.interactivity.modes.remove
+particles_nb	resources/js/particles/particles.js	/^          particles_nb: 4$/;"	p	class:pJS.pJS.interactivity.modes.push
+php-bubble	index.html	/^                    <div class="speech-bubble not-visible" id="php-bubble">$/;"	I
+polygon	resources/js/particles/particles.js	/^        polygon: {$/;"	c	class:pJS.pJS.particles.shape
+pos	resources/js/particles/particles.js	/^            var pos = {$/;"	c	class:pJS.pJS.pJS.pJS.process
+pos	resources/js/particles/particles.js	/^      var pos = {$/;"	c	class:pJS.pJS.pJS.pJS
+process	resources/js/particles/particles.js	/^      function process(bubble_param, particles_param, p_obj_bubble, p_obj, id){$/;"	f	function:pJS.pJS.pJS.pJS
+push	resources/js/particles/particles.js	/^        push:{$/;"	c	class:pJS.pJS.interactivity.modes
+python	index.html	/^          <div id="python" class="tech-div">$/;"	I
+r	resources/js/particles/particles.js	/^            r: color.value.r,$/;"	p	class:color.color
+r	resources/js/particles/particles.js	/^        r: (Math.floor(Math.random() * (255 - 0 + 1)) + 0),$/;"	p	class:color.color
+random	resources/js/particles/particles.js	/^        random: false,$/;"	p	class:pJS.pJS.particles.move
+random	resources/js/particles/particles.js	/^        random: false,$/;"	p	class:pJS.pJS.particles.opacity
+random	resources/js/particles/particles.js	/^        random: false,$/;"	p	class:pJS.pJS.particles.size
+ratio	resources/js/particles/particles.js	/^        ratio: sh.image.width \/ sh.image.height$/;"	p	class:pJS.pJS.pJS.img
+remove	resources/js/particles/particles.js	/^        remove:{$/;"	c	class:pJS.pJS.interactivity.modes
+repository	package.json	/^  "repository": {$/;"	o
+repulse	resources/js/particles/particles.js	/^        repulse:{$/;"	c	class:pJS.pJS.interactivity.modes
+requestAnimFrame	resources/js/particles/particles.js	/^window.requestAnimFrame = (function(){$/;"	f	function:window
+requires	package-lock.json	/^  "requires": true,$/;"	b
+resize	resources/js/particles/particles.js	/^        resize: true$/;"	p	class:pJS.pJS.interactivity.events
+resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/particles.js\/-\/particles.js-2.0.0.tgz",$/;"	s	object:dependencies.particles.js
+responsive-button	index.html	/^        id="responsive-button"$/;"	I
+responsiveBtn	resources/js/scripts.js	/^const responsiveBtn = document.getElementById("responsive-button");$/;"	C
+retina_detect	resources/js/particles/particles.js	/^    retina_detect: false,$/;"	p	class:pJS.pJS
+rotateX	resources/js/particles/particles.js	/^          rotateX: 3000,$/;"	p	class:pJS.pJS.particles.move.attract
+rotateY	resources/js/particles/particles.js	/^          rotateY: 3000$/;"	p	class:pJS.pJS.particles.move.attract
+s	resources/js/particles/particles.js	/^            s: color.value.s,$/;"	p	class:color.color
+scripts	package.json	/^  "scripts": {$/;"	o
+scripts	resources/js/package.json	/^  "scripts": {$/;"	o
+shape	resources/js/particles/particles.js	/^      shape: {$/;"	c	class:pJS.pJS.particles
+size	resources/js/particles/particles.js	/^          size: 80,$/;"	p	class:pJS.pJS.interactivity.modes.bubble
+size	resources/js/particles/particles.js	/^      size: {$/;"	c	class:pJS.pJS.particles
+size_anim_speed	resources/js/particles/particles.js	/^    size_anim_speed: pJS.particles.size.anim.speed,$/;"	p	class:pJS.pJS.pJS
+size_min	resources/js/particles/particles.js	/^          size_min: 0,$/;"	p	class:pJS.pJS.particles.size.anim
+size_value	resources/js/particles/particles.js	/^    size_value: pJS.particles.size.value,$/;"	p	class:pJS.pJS.pJS
+speed	resources/js/particles/particles.js	/^          speed: 2,$/;"	p	class:pJS.pJS.particles.opacity.anim
+speed	resources/js/particles/particles.js	/^          speed: 20,$/;"	p	class:pJS.pJS.particles.size.anim
+speed	resources/js/particles/particles.js	/^        speed: 2,$/;"	p	class:pJS.pJS.particles.move
+src	resources/js/particles/particles.js	/^          src: '',$/;"	p	class:pJS.pJS.particles.shape.image
+src	resources/js/particles/particles.js	/^        src: sh.image.src,$/;"	p	class:pJS.pJS.pJS.img
+straight	resources/js/particles/particles.js	/^        straight: false,$/;"	p	class:pJS.pJS.particles.move
+stroke	resources/js/particles/particles.js	/^        stroke: {$/;"	c	class:pJS.pJS.particles.shape
+sync	resources/js/particles/particles.js	/^          sync: false$/;"	p	class:pJS.pJS.particles.opacity.anim
+sync	resources/js/particles/particles.js	/^          sync: false$/;"	p	class:pJS.pJS.particles.size.anim
+technologies-sec	index.html	/^      <div id="technologies-sec" class="technologies-container">$/;"	I
+test	package.json	/^    "test": "echo \\"Error: no test specified\\" && exit 1"$/;"	s	object:scripts
+test	resources/js/package.json	/^    "test": "echo \\"Error: no test specified\\" && exit 1"$/;"	s	object:scripts
+tmp	resources/js/particles/particles.js	/^    tmp: {}$/;"	p	class:pJS.pJS
+togglePopUp	resources/js/scripts.js	/^function togglePopUp(button, popUp, event) {$/;"	f
+type	package.json	/^    "type": "git",$/;"	s	object:repository
+type	resources/js/particles/particles.js	/^        type: 'circle',$/;"	p	class:pJS.pJS.particles.shape
+url	package.json	/^    "url": "git+https:\/\/github.com\/MauDev98\/PortfolioProject.git"$/;"	s	object:repository
+url	package.json	/^    "url": "https:\/\/github.com\/MauDev98\/PortfolioProject\/issues"$/;"	s	object:bugs
+value	resources/js/particles/particles.js	/^        value: '#fff'$/;"	p	class:pJS.pJS.particles.color
+value	resources/js/particles/particles.js	/^        value: 1,$/;"	p	class:pJS.pJS.particles.opacity
+value	resources/js/particles/particles.js	/^        value: 20,$/;"	p	class:pJS.pJS.particles.size
+value	resources/js/particles/particles.js	/^        value: 400,$/;"	p	class:pJS.pJS.particles.number
+value_area	resources/js/particles/particles.js	/^          value_area: 800$/;"	p	class:pJS.pJS.particles.number.density
+vendors	resources/js/particles/particles.js	/^      vendors:{}$/;"	p	class:pJS.pJS.fn
+version	package-lock.json	/^      "version": "2.0.0",$/;"	s	object:dependencies.particles.js
+version	package.json	/^  "version": "1.0.0",$/;"	s
+version	resources/js/package.json	/^  "version": "1.0.0",$/;"	s
+w	resources/js/particles/particles.js	/^      w: canvas_el.offsetWidth,$/;"	p	class:pJS.pJS.canvas
+wholeNavbar	resources/js/scripts.js	/^const wholeNavbar = document.getElementById("complete-navbar");$/;"	C
+width	resources/js/particles/particles.js	/^          width: 0,$/;"	p	class:pJS.pJS.particles.shape.stroke
+width	resources/js/particles/particles.js	/^          width: 100,$/;"	p	class:pJS.pJS.particles.shape.image
+width	resources/js/particles/particles.js	/^        width: 1$/;"	p	class:pJS.pJS.particles.line_linked
+workflow-bubble	index.html	/^                <div class="speech-bubble not-visible" id="workflow-bubble">$/;"	I
+workflow-button	index.html	/^                  id="workflow-button"$/;"	I
+x	resources/js/particles/particles.js	/^              x: p.x + p.vx,$/;"	p	class:pJS.pJS.pJS.pJS.process.pos
+x	resources/js/particles/particles.js	/^        velbase = { x:-0.5, y:-0.5 };$/;"	p	class:pJS.pJS.pJS.case
+x	resources/js/particles/particles.js	/^        velbase = { x:-0.5, y:1 };$/;"	p	class:pJS.pJS.pJS.case
+x	resources/js/particles/particles.js	/^        velbase = { x:-1, y:0 };$/;"	p	class:pJS.pJS.pJS.case
+x	resources/js/particles/particles.js	/^        velbase = { x:0, y:-1 };$/;"	p	class:pJS.pJS.pJS.case
+x	resources/js/particles/particles.js	/^        velbase = { x:0, y:0 };$/;"	p	class:pJS.pJS.pJS.default
+x	resources/js/particles/particles.js	/^        velbase = { x:0, y:1 };$/;"	p	class:pJS.pJS.pJS.case
+x	resources/js/particles/particles.js	/^        velbase = { x:0.5, y:-0.5 };$/;"	p	class:pJS.pJS.pJS.case
+x	resources/js/particles/particles.js	/^        velbase = { x:0.5, y:0.5 };$/;"	p	class:pJS.pJS.pJS.case
+x	resources/js/particles/particles.js	/^        velbase = { x:1, y:-0 };$/;"	p	class:pJS.pJS.pJS.case
+x	resources/js/particles/particles.js	/^        x: p.x + normVec.x * repulseFactor,$/;"	p	class:pJS.pJS.pJS.pJS.pos
+x	resources/js/particles/particles.js	/^      var normVec = {x: dx_mouse\/dist_mouse, y: dy_mouse\/dist_mouse},$/;"	p	class:pJS.pJS.pJS.pJS.normVec
+x_left	resources/js/particles/particles.js	/^          x_left: -p.radius,$/;"	p	class:pJS.pJS.pJS.new_pos
+x_left	resources/js/particles/particles.js	/^          x_left: p.radius,$/;"	p	class:pJS.pJS.pJS.new_pos
+x_right	resources/js/particles/particles.js	/^          x_right:  pJS.canvas.w,$/;"	p	class:pJS.pJS.pJS.new_pos
+x_right	resources/js/particles/particles.js	/^          x_right: pJS.canvas.w + p.radius,$/;"	p	class:pJS.pJS.pJS.new_pos
+y	resources/js/particles/particles.js	/^              y: p.y + p.vy$/;"	p	class:pJS.pJS.pJS.pJS.process.pos
+y	resources/js/particles/particles.js	/^        velbase = { x:-0.5, y:-0.5 };$/;"	p	class:pJS.pJS.pJS.case
+y	resources/js/particles/particles.js	/^        velbase = { x:-0.5, y:1 };$/;"	p	class:pJS.pJS.pJS.case
+y	resources/js/particles/particles.js	/^        velbase = { x:-1, y:0 };$/;"	p	class:pJS.pJS.pJS.case
+y	resources/js/particles/particles.js	/^        velbase = { x:0, y:-1 };$/;"	p	class:pJS.pJS.pJS.case
+y	resources/js/particles/particles.js	/^        velbase = { x:0, y:0 };$/;"	p	class:pJS.pJS.pJS.default
+y	resources/js/particles/particles.js	/^        velbase = { x:0, y:1 };$/;"	p	class:pJS.pJS.pJS.case
+y	resources/js/particles/particles.js	/^        velbase = { x:0.5, y:-0.5 };$/;"	p	class:pJS.pJS.pJS.case
+y	resources/js/particles/particles.js	/^        velbase = { x:0.5, y:0.5 };$/;"	p	class:pJS.pJS.pJS.case
+y	resources/js/particles/particles.js	/^        velbase = { x:1, y:-0 };$/;"	p	class:pJS.pJS.pJS.case
+y	resources/js/particles/particles.js	/^        y: p.y + normVec.y * repulseFactor$/;"	p	class:pJS.pJS.pJS.pJS.pos
+y	resources/js/particles/particles.js	/^      var normVec = {x: dx_mouse\/dist_mouse, y: dy_mouse\/dist_mouse},$/;"	p	class:pJS.pJS.pJS.pJS.normVec
+y_bottom	resources/js/particles/particles.js	/^          y_bottom: pJS.canvas.h + p.radius$/;"	p	class:pJS.pJS.pJS.new_pos
+y_bottom	resources/js/particles/particles.js	/^          y_bottom: pJS.canvas.h$/;"	p	class:pJS.pJS.pJS.new_pos
+y_top	resources/js/particles/particles.js	/^          y_top: -p.radius,$/;"	p	class:pJS.pJS.pJS.new_pos
+y_top	resources/js/particles/particles.js	/^          y_top: p.radius,$/;"	p	class:pJS.pJS.pJS.new_pos

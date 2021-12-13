@@ -722,11 +722,14 @@ body {
     font-size: 1em;
 }
 
-.git .learn-more::after{
+.git .learn-more:after{
     content: "Github repositories";
-    color: var(--textColor);
-    z-index: -1;
 }
+
+.git .learn-more:hover:after{
+    content: "Click me";
+}
+
 
 /* fix learn more hover button effect, I do now know why it is not working */
 
@@ -737,16 +740,29 @@ body {
     align-items: center;
 }
 
+.my-workflow .text-style{
+    font-size: 1.2em;
+}
+
+.my-workflow .learn-more:after{
+    content: "My workflow";
+    color: var(--titlesColor);
+    text-transform: uppercase;
+}
+
+.my-workflow .learn-more:hover:after{
+    content: "Click me";
+}
+
 .my-workflow i{
     color: var(--miscColor2)
 }
 
-.my-workflow .learn-more::after{
+/* .my-workflow .learn-more::after{ */
+/*  */
+/* } */
 
-}
 /* TECNOLOGIES SECTION STYLES END */
-
-
 .projects-section{
     padding: 1em 2em 3em 2em;
     height: 100vh;

@@ -54,16 +54,6 @@ function clickHandler(e) {
 //DIV APPEAR ON SCROLL
 
 //FRAMEWORKS ACTION
-const cssFrameworkButton = document.getElementById("css-framework-button")
-const cssFrameworkText = document.getElementById("css-framework-div")
-const jsFrameworkButton = document.getElementById("js-framework-button");
-const jsFrameworkText = document.getElementById("js-framework-div");
-const linuxLearnMoreButton = document.getElementById("learn-more-linux") ;
-const linuxLearnMoreText = document.getElementById("linux-bubble");
-const phpLearnMoreButton = document.getElementById("learn-more-php");
-const phpLearnMoreText = document.getElementById("php-bubble");
-
-
 function hasClass(ele, className) {
     if (ele.classList.contains(className)) {
         return true
@@ -72,37 +62,32 @@ function hasClass(ele, className) {
     }
 }
 
-function showPopUp(button, popUp, event) {
-    button.addEventListener(event, function(e) {
+function togglePopUp(button, popUp, event) {
+    const buttonEle = document.getElementById(button);
+    const popUpEle = document.getElementById(popUp);
+    buttonEle.addEventListener(event, function(e) {
         const makeVisible = "is-visible"
-        if (hasClass(popUp, makeVisible) == true){
-            popUp.classList.remove(makeVisible)
+        if (hasClass(popUpEle, makeVisible) == true){
+            popUpEle.classList.remove(makeVisible)
             e.stopPropagation();
         }else{
-            popUp.classList.add(makeVisible)
+            popUpEle.classList.add(makeVisible)
             e.stopPropagation();
         }
     })
-}
-
-function hidePopUp(toHide, event) {
     window.addEventListener(event, function(e) {
         const makeVisible = "is-visible"
-        if (hasClass(toHide, makeVisible) == true) {
+        if (hasClass(popUpEle, makeVisible) == true) {
             e.preventDefault();
-            toHide.classList.remove(makeVisible)
+            popUpEle.classList.remove(makeVisible)
         }
     })
 }
 
-showPopUp(cssFrameworkButton, cssFrameworkText, "click")
-showPopUp(jsFrameworkButton,jsFrameworkText, "click")
-showPopUp(linuxLearnMoreButton,linuxLearnMoreText, "click")
-showPopUp(phpLearnMoreButton,phpLearnMoreText, "click")
-hidePopUp(jsFrameworkText,"click")
-hidePopUp(cssFrameworkText, "click")
-hidePopUp(linuxLearnMoreText,"click")
-hidePopUp(phpLearnMoreText, "click")
+togglePopUp("css-framework-button", "css-framework-div", "click")
+togglePopUp("js-framework-button", "js-framework-div", "click")
+togglePopUp("learn-more-linux", "linux-bubble", "click")
+togglePopUp("learn-more-php", "php-bubble", "click")
 
 
 //Fix this by removing not visible class to the p tag, idiot
