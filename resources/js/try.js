@@ -1,5 +1,13 @@
-let newFunc = (x, y) =>{
-    return x*y
-}
+let randomList = ["apples", "oranges", "chocolate", "milk"]
 
-console.log(newFunc(2, 10));
+
+for (ele in randomList){
+    if (randomList[ele] == "oranges"){
+        console.log(randomList[ele]);
+        console.log("que fue mano");
+        break
+    }else{
+        console.log(randomList[ele]);
+        console.log("the hueveaste");
+    }
+}

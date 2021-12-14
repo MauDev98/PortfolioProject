@@ -67,19 +67,36 @@ function togglePopUp(button, popUp, event) {
     const popUpEle = document.getElementById(popUp);
     buttonEle.addEventListener(event, function(e) {
         const makeVisible = "is-visible"
-        if (hasClass(popUpEle, makeVisible) == true){
+        if (hasClass(popUpEle, makeVisible) == true) {
             popUpEle.classList.remove(makeVisible)
             e.stopPropagation();
-        }else{
+        } else {
             popUpEle.classList.add(makeVisible)
             e.stopPropagation();
         }
     })
+    buttonEle.addEventListener(event, function(){
+        const makeVisible = "is-visible"
+        const technologiesSection = document.getElementById("technologies-sec");
+        const notVisibleElements = technologiesSection.querySelectorAll(".not-visible")
+        for (i = 0; i < notVisibleElements.length; i++) {
+            if (hasClass(notVisibleElements[i], makeVisible) && notVisibleElements[i] != popUpEle){
+                notVisibleElements[i].classList.remove(makeVisible)
+            }
+        }
+    })
     window.addEventListener(event, function(e) {
         const makeVisible = "is-visible"
-        if (hasClass(popUpEle, makeVisible) == true) {
-            e.preventDefault();
-            popUpEle.classList.remove(makeVisible)
+        const eleAndChildren = popUpEle.children;
+        for (i in eleAndChildren) {
+            let currentTarget = e.target
+            if (popUpEle.contains(currentTarget)) {
+                break
+            } else {
+                if (hasClass(popUpEle, makeVisible)) {
+                    popUpEle.classList.remove(makeVisible)
+                }
+            }
         }
     })
 }
@@ -88,6 +105,13 @@ togglePopUp("css-framework-button", "css-framework-div", "click")
 togglePopUp("js-framework-button", "js-framework-div", "click")
 togglePopUp("learn-more-linux", "linux-bubble", "click")
 togglePopUp("learn-more-php", "php-bubble", "click")
+togglePopUp("workflow-button", "workflow-bubble", "click")
+
+
+
+
+
+
 
 
 //Fix this by removing not visible class to the p tag, idiot
